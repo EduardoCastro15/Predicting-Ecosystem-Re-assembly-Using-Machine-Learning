@@ -14,7 +14,7 @@ class GraphVisualizer:
     
     def draw_graph(self, pos=None, with_labels=True, node_color='green', node_size=500, font_size=8, font_color='black',
                    edge_color='gray', width=1, style='dashed', alpha=0.9, linewidths=2, edge_cmap=plt.cm.Blues,
-                   edge_vmin=0, edge_vmax=1):
+                   edge_vmin=0, edge_vmax=1, show_info=True):
         """
         Draws the graph with the given layout and styling options.
 
@@ -54,4 +54,15 @@ class GraphVisualizer:
             edge_vmin=edge_vmin,
             edge_vmax=edge_vmax
         )
+        if show_info:
+            # Get the number of nodes and edges
+            num_nodes = self.graph.number_of_nodes()
+            num_edges = self.graph.number_of_edges()
+            
+            # Add text with the number of nodes and edges to the plot
+            plt.text(0.05, 0.95, f'Nodes: {num_nodes}\nEdges: {num_edges}', 
+                     fontsize=12, color='black', ha='left', va='top', transform=plt.gca().transAxes,
+                     bbox=dict(facecolor='white', alpha=0.5))
+        
+        # Show the plot
         plt.show()
