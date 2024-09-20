@@ -1,3 +1,4 @@
+import scipy.io
 import numpy as np
 import networkx as nx
 
@@ -10,19 +11,7 @@ if __name__ == "__main__":
     """
     Importing the dataset
     """
-    url = 'https://github.com/KienMN/Weisfeiler-Lehman-Neural-Machine/raw/e6bea9dc464fb693264677f3c1d5442b21385d66/data/USAir.mat'
-    file_name = 'USAir.mat'
-    
-    # Create an instance of DataLoader
-    data_loader = DataLoader(url, file_name)
-    # Download the dataset
-    data_loader.download_file()
-    # Get file size
-    data_loader.get_file_size()
-    # Read and print the file header
-    data_loader.read_file_header()
-    # Load the MATLAB file
-    data = data_loader.load_mat_file()
+    data = scipy.io.loadmat('data/USAir.mat')
 
     """
     Create a graph from the adjacency matrix

@@ -207,10 +207,10 @@ class WLNM:
         self.model = MLPClassifier(hidden_layer_sizes=(32, 32, 16),
                                    alpha=1e-3,
                                    batch_size=128,
-                                   learning_rate_init=0.001,
-                                   max_iter=200,
+                                   learning_rate_init=0.0005,
+                                   max_iter=300,
                                    verbose=True,
-                                   early_stopping=False,
+                                   early_stopping=True,
                                    tol=1e-4)
         self.model.fit(X_train_shuffle, y_train_shuffle)
 
