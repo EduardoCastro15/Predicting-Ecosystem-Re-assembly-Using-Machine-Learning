@@ -84,7 +84,7 @@ ehthumbs.db
 *.log
 
 # Binary files
-*.mat
+# *.mat
 
 # Ignore requirements.txt if it is generated dynamically
 #requirements.txt
