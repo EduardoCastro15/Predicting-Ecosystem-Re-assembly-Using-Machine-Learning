@@ -1,6 +1,7 @@
 import numpy as np
 import networkx as nx
 
+from WLNM import WLNM
 from DivideNet import DivideNet
 from DataLoader import DataLoader
 from GraphVisualizer import GraphVisualizer
@@ -65,3 +66,13 @@ if __name__ == "__main__":
 
     # Convert labels to NumPy arrays
     y_train, y_test = np.array(label_train), np.array(label_test)
+
+    """
+    WLNM - Weisfeiler-Lehman Neural Machine
+    """
+    # Initialize and train the WLNM model
+    wlnm = WLNM(network_train, network_test, all_links_train, all_links_test, label_train, label_test)
+    wlnm.train_model()
+
+    # Evaluate the model
+    wlnm.evaluate_model()
