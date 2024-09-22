@@ -32,11 +32,10 @@ class DivideNet:
         
         # Calculates the number of edges in the train network
         n_links = self.network_train.number_of_edges()
+        print(f"n_links: {n_links}")
         # Calculates the number of edges to be used for testing
         n_links_test = math.ceil(self.test_ratio * n_links)
-        
-        # Randomly selects edges for the test set
-        selected_links_id = np.random.choice(np.arange(n_links), size=n_links_test, replace=False)
+        print(f"n_links_test: {n_links_test}")
 
         # Convert the adjacency matrix to a sparse matrix and extract the upper triangular portion
         network_adj_matrix = nx.to_scipy_sparse_array(self.network)
@@ -46,6 +45,13 @@ class DivideNet:
         row_index, col_index = network_adj_matrix.nonzero()
         links = [(x, y) for x, y in zip(row_index, col_index)]
         
+        # Ensure that we don't select more links than available
+        if n_links_test > len(links):
+            raise ValueError(f"Test ratio too high. Requested {n_links_test} links but only {len(links)} available.")
+
+        # Randomly selects edges for the test set
+        selected_links_id = np.random.choice(np.arange(len(links)), size=n_links_test, replace=False)
+
         # Select the subset of edges for testing
         selected_links = [links[link_id] for link_id in selected_links_id]
         

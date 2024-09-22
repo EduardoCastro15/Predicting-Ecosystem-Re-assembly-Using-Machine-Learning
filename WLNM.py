@@ -215,11 +215,11 @@ class WLNM:
         self.model.fit(X_train_shuffle, y_train_shuffle)
 
         # Plot the loss curve
-        plt.plot(self.model.loss_curve_)
-        plt.title('Loss Curve')
-        plt.xlabel('Iteration')
-        plt.ylabel('Loss')
-        plt.show()
+        # plt.plot(self.model.loss_curve_)
+        # plt.title('Loss Curve')
+        # plt.xlabel('Iteration')
+        # plt.ylabel('Loss')
+        # plt.show()
     
     def evaluate_model(self):
         """Evaluates the trained model on the test data using AUC."""
