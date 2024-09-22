@@ -1,0 +1,291 @@
+Foodweb,Nodes,Edges
+"Grand Caricaie  marsh dominated by Cladietum marisci, mown  Clmown1",163,2120
+"Grand Caricaie  marsh dominated by Cladietum marisci, mown  Clmown2",136,1301
+"Grand Caricaie  marsh dominated by Cladietum marisci, not mown  ClControl1",139,1558
+"Grand Caricaie  marsh dominated by Cladietum marisci, not mown  ClControl2",97,776
+"Grand Caricaie  marsh dominated by Schoenus nigricans, mown  Scmown1 ",131,1390
+"Grand Caricaie  marsh dominated by Schoenus nigricans, mown  Scmown2 ",128,1261
+"Grand Caricaie  marsh dominated by Schoenus nigricans, not mown  ScControl1 ",132,1285
+"Grand Caricaie  marsh dominated by Schoenus nigricans, not mown  ScControl2 ",126,1205
+Ythan Estuary,92,417
+AEW01,121,1841
+AEW02,153,3345
+AEW03,122,1845
+AEW04,125,1838
+AEW05,126,1876
+AEW06,120,1745
+AEW07,129,1958
+AEW08,136,2305
+AEW09,134,2374
+AEW11,120,1865
+AEW17,145,2864
+AEW18,111,1609
+AEW25,123,1854
+AEW27,120,1346
+AEW30,114,1423
+AEW49,154,2883
+HEW01,134,1573
+HEW02,126,1779
+HEW03,123,1668
+HEW04,116,1196
+HEW05,168,3138
+HEW06,142,2346
+HEW10,91,889
+HEW11,132,1931
+HEW12,143,2516
+HEW13,144,2154
+HEW16,132,2275
+HEW17,139,2110
+HEW21,146,1999
+HEW22,137,2138
+HEW36,160,3251
+HEW47,148,3073
+SEW01,104,1245
+SEW02,93,730
+SEW03,122,2103
+SEW04,120,1604
+SEW05,101,1239
+SEW06,127,1991
+SEW07,132,2787
+SEW08,118,1897
+SEW09,89,1039
+SEW18,123,1895
+SEW35,101,1184
+SEW36,89,960
+SEW37,118,2031
+SEW41,118,1757
+SEW43,120,1814
+SEW48,118,1883
+Kongsfjorden,263,1603
+Alford lake,56,220
+Balsam lake,50,261
+Beaver lake,56,267
+Big hope lake,61,328
+Brandy lake,30,121
+Bridge brook lake,75,553
+Brook trout lake,15,19
+Buck pond,41,153
+Burntbridge lake,53,183
+Cascade lake,35,118
+Chub lake,36,83
+Chub pond,54,416
+Connera lake,65,418
+Constable lake,32,61
+Deep lake,19,28
+Emerald lake,22,58
+Falls lake,39,152
+Fawn lake,32,122
+Federation lake,22,57
+Goose lake,40,98
+Grass lake,44,165
+Gull lake,45,212
+Gull lake north,16,25
+Helldiver pond,41,169
+High pond,24,87
+Hoel lake,72,571
+Horseshoe Lake,49,255
+Indian Lake,35,102
+Little Rainbow Lake,52,247
+Long Lake,65,417
+Loon Lake,35,118
+Lost Lake,31,148
+Lost Lake East,41,137
+Lower Sister Lake,37,161
+Oswego Lake,33,138
+Owl Lake,30,71
+Rat Lake,50,273
+Razorback Lake,42,179
+Rock Lake,22,43
+Russian Lake,24,61
+Safford Lake,44,225
+Sand Lake,29,82
+South Lake,22,36
+Squaw Lake,41,169
+Stink Lake,53,281
+Twelfth Tee Lake,31,83
+Twin Lake East,13,17
+Twin Lake West,26,60
+Whipple Lake,32,136
+Wolf Lake,27,42
+Weddell Sea,490,16041
+Tuesday Lake 1984,50,269
+Tuesday Lake 1986,51,241
+Chilean Intertidal Curaumilla,104,1340
+Chilean Intertidal El Quisco,101,1347
+Chilean Intertidal Las Cruces,105,1357
+Chilean Intertidal Los Molles,105,1352
+Chesapeake Bay,521,15746
+Carpinteria,160,3554
+Scottish Lake,51,347
+Afon Hafren 2005,22,109
+Allt a Mharcaidh,37,267
+Broadstone Stream,23,107
+Dargall Lane,20,72
+Duddon Pike Beck,31,191
+Hardknott Gill,41,382
+Mill Stream,81,1443
+Mosendale Beck,21,85
+Old Lodge,21,87
+Alert,16,36
+Bylot,16,32
+Herschel,23,55
+Nenetsky,24,71
+Svalbard,13,21
+Yamal,22,64
+Zackenberg,17,37
+Gearagh,117,383
+Dutch Microfauna food web PlotA,94,844
+Dutch Microfauna food web PlotB,95,588
+Dutch Microfauna food web PlotC,99,901
+Bure Stream,95,1938
+Loddon Stream,105,2552
+Lyde Stream,110,2041
+Test Stream,121,3195
+Wensum Stream,127,3504
+Lake Malawi,27,142
+Iceland stream IS7 April 2009,30,169
+Iceland stream IS7 August 2008,59,621
+Iceland stream IS8  April 2009,37,216
+Iceland stream IS8 August 2008,43,260
+Caribbean Reef,247,3311
+FloridaIslandE1,210,3559
+FloridaIslandE2,59,298
+FloridaIslandE3,211,3669
+FloridaIslandE7,54,301
+FloridaIslandE9,56,361
+Lough Hyne,346,5052
+Blackrock Stream,88,375
+Broad Stream,95,565
+Canton Creek,110,708
+Dempsters Stream,110,966
+German Creek,86,353
+Healy Creek,99,634
+Kye Burn,101,629
+Little Kye Burn,79,371
+Stony Stream,113,832
+Sutton Stream,88,423
+AP1,13,17
+AP2,18,40
+AP3,18,52
+AP4,12,24
+BP1,28,91
+BP2,18,36
+BP3,22,49
+CGP1,18,27
+CGP2,18,34
+CGP3,31,103
+CR1P1,63,518
+CR1P2,60,487
+CR1P3,42,284
+CR1P4,40,250
+CR2P1,48,373
+CR2P2,55,377
+CR2P3,39,233
+CR2P4,35,151
+F1P1,54,244
+F1P2,48,257
+F1P3,47,218
+F1P4,49,295
+F2P1,58,362
+F2P2,45,179
+F2P3,53,266
+F2P4,52,257
+FP1,22,60
+FXAP1,46,380
+FXAP2,45,348
+FXAP3,36,260
+FXAP4,27,139
+FXBP1,31,186
+FXBP2,45,326
+FXBP3,48,378
+FXBP4,49,424
+GJAP1,31,218
+GJAP2,30,147
+GJAP3,23,87
+GJAP4,25,86
+GJBP1,40,379
+GJBP2,33,244
+GJBP3,27,177
+GJBP4,23,94
+L1P1,60,465
+L1P2,42,294
+L1P3,48,391
+L1P4,44,316
+L2P1,47,320
+L2P2,58,451
+L2P3,27,108
+L2P4,39,260
+L3P1,33,214
+L3P2,23,105
+L3P3,54,464
+L3P4,50,265
+L4P1,57,490
+L4P2,56,460
+L4P3,41,238
+L4P4,43,292
+MBP1,34,215
+MBP2,19,92
+MBP3,37,353
+MBP4,27,162
+PC1P1,22,96
+PC1P2,21,115
+PC1P3,25,120
+PC1P4,17,82
+PC2P1,19,77
+PC2P2,31,176
+PC2P3,18,61
+PC2P4,17,68
+PC2P5,12,33
+PGSBP1,17,44
+PGSBP2,29,94
+PGUBP1,18,48
+PGUBP2,20,51
+PGUBP3,21,68
+PGUBP4,18,54
+PP1I1,27,119
+PP1I2,14,30
+PP1I3,11,24
+PP1I4,18,60
+PP2I1,21,86
+PP2I2,21,69
+PP2I3,23,93
+PP2I4,20,64
+PP2M1,18,47
+PP2M2,19,58
+PP2M3,19,58
+PP2M4,18,49
+RMP1,28,127
+RMP2,20,67
+RMP3,17,40
+RMP4,16,45
+RMP5,21,97
+RV1P1,59,445
+RV1P2,50,357
+RV1P3,55,316
+RV1P4,50,323
+RV2P1,53,377
+RV2P2,38,171
+RV2P3,48,320
+RV2P4,41,210
+SF1I1,15,30
+SF1I2,20,58
+SF1I3,27,107
+SF1I4,21,80
+SF1M1,12,28
+SF1M2,10,16
+SF1M3,15,30
+SF1M4,15,31
+SF2I1,16,34
+SF2I2,19,51
+SF2I3,15,31
+SF2I4,14,32
+SF2M1,14,32
+SF2M2,15,30
+SF2M3,20,55
+SF2M4,17,49
+SP1,11,24
+WP1,39,367
+WP2,26,128
+WP3,35,289
+WP4,27,147
+Skipwith Pond,34,364
