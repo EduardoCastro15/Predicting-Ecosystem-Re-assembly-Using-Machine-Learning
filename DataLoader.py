@@ -3,6 +3,7 @@ import numpy as np
 import networkx as nx
 import pandas as pd
 import os
+import logging
 
 class DataLoader:
     """
@@ -16,6 +17,10 @@ class DataLoader:
         :param file_path: The path to the dataset file.
         """
         self.file_path = file_path
+        self.node_classes = {}
+
+        # Set up logger
+        self.logger = logging.getLogger(__name__)
 
     def load_data(self):
         """
@@ -53,9 +58,11 @@ class DataLoader:
     def _load_csv_file(self):
         """
         Load a food web .csv file and create an adjacency matrix based on the 'con.taxonomy' and 'res.taxonomy' columns.
-
+        Additionally, create a node classification dictionary.
+        
         Returns:
             network: A NetworkX graph created from the adjacency matrix in the food web CSV file.
+            node_classes: Dictionary classifying nodes as 'resource', 'consumer', or 'top consumer'.
         """
         # Load the CSV file
         df = pd.read_csv(self.file_path)
@@ -83,4 +90,35 @@ class DataLoader:
         # Convert the adjacency matrix to a NetworkX graph
         network = nx.from_numpy_array(adj_matrix)
 
-        return network
+        # Classify nodes based on their roles
+        self.node_classes = self._classify_nodes(consumers, resources)
+
+        # Log the number of node classes
+        self.logger.info(f"Number of resources: {sum(1 for node, role in self.node_classes.items() if role == 'resource')}")
+        self.logger.info(f"Number of consumers: {sum(1 for node, role in self.node_classes.items() if role == 'consumer')}")
+        self.logger.info(f"Number of top consumers: {sum(1 for node, role in self.node_classes.items() if role == 'top consumer')}")
+
+        return network, self.node_classes
+
+    def _classify_nodes(self, consumers, resources):
+        """
+        Classify nodes as 'resource', 'consumer', or 'top consumer'.
+        
+        :param consumers: List of consumer species.
+        :param resources: List of resource species.
+        :return: A dictionary with node IDs as keys and their classification as values.
+        """
+        node_classes = {}
+
+        # Mark all resources as 'resource'
+        for resource in resources:
+            node_classes[resource] = 'resource'
+
+        # Mark consumers based on whether they are consumed or consume others
+        for consumer in consumers:
+            if consumer in node_classes:
+                node_classes[consumer] = 'top consumer'
+            else:
+                node_classes[consumer] = 'consumer'
+
+        return node_classes

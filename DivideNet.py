@@ -1,26 +1,32 @@
 import math
+import pandas as pd
 import numpy as np
 import networkx as nx
 import scipy.sparse
+import logging
 
 class DivideNet:
     """Class to handle the division of a network into positive and negative training and testing networks."""
     
-    def __init__(self, network, test_ratio=0.1, neg_ratio=2):
+    def __init__(self, network, test_ratio=0.1, neg_ratio=2, node_classes=None):
         """
         Initialize the DivideNet with a NetworkX graph, a test ratio, and a negative sampling ratio.
         
         :param network: The input NetworkX graph.
         :param test_ratio: The proportion of edges to be used for testing (default: 0.1).
         :param neg_ratio: The ratio of negative samples to positive samples (default: 2).
+        :param node_classes: A dictionary mapping node IDs to their classification ('resource', 'consumer', 'top consumer').
         """
         self.network = network
         self.test_ratio = test_ratio
         self.neg_ratio = neg_ratio
+        self.node_classes = node_classes
         self.network_train = None
         self.network_test = None
         self.neg_network_train = None
         self.neg_network_test = None
+
+        self.logger = logging.getLogger(__name__)
     
     def split_network(self):
         """Splits the network into training and testing sets based on the test ratio."""
@@ -32,10 +38,10 @@ class DivideNet:
         
         # Calculates the number of edges in the train network
         n_links = self.network_train.number_of_edges()
-        print(f"n_links: {n_links}")
+        self.logger.info(f"Total number of links in the network: {n_links}")
         # Calculates the number of edges to be used for testing
         n_links_test = math.ceil(self.test_ratio * n_links)
-        print(f"n_links_test: {n_links_test}")
+        self.logger.info(f"Number of links for testing: {n_links_test}")
 
         # Convert the adjacency matrix to a sparse matrix and extract the upper triangular portion
         network_adj_matrix = nx.to_scipy_sparse_array(self.network)
@@ -58,6 +64,10 @@ class DivideNet:
         # Remove the selected edges from the training network and add them to the test network
         self.network_train.remove_edges_from(selected_links)
         self.network_test.add_edges_from(selected_links)
+
+        # Log the number of positive edges in training and testing
+        self.logger.info(f"Training Positive Samples: {self.network_train.number_of_edges()}")
+        self.logger.info(f"Testing Positive Samples: {self.network_test.number_of_edges()}")
     
     def get_train_test_networks(self):
         """
@@ -69,8 +79,24 @@ class DivideNet:
             self.split_network()
         return self.network_train, self.network_test
 
-    def generate_negative_samples(self):
-        """Generates negative samples for both the training and test networks."""
+    def classify_nodes(self, resources, top_consumers):
+        """
+        Classify nodes in the network as 'resource', 'top consumer', or 'consumer'.
+        
+        :param resources: List of node IDs classified as resources.
+        :param top_consumers: List of node IDs classified as top consumers.
+        """
+        self.node_classes = {}
+        for node in self.network.nodes:
+            if node in resources:
+                self.node_classes[node] = 'resource'
+            elif node in top_consumers:
+                self.node_classes[node] = 'top consumer'
+            else:
+                self.node_classes[node] = 'consumer'
+    
+    def generate_biologically_realistic_negative_samples(self):
+        """Generates negative samples, limited to resource-resource and top consumer-top consumer pairs."""
         
         # Calculate the number of positive edges
         n_links_train_pos = self.network_train.number_of_edges()
@@ -79,28 +105,47 @@ class DivideNet:
         # Calculate the number of negative samples needed
         n_links_train_neg = self.neg_ratio * n_links_train_pos
         n_links_test_neg = self.neg_ratio * n_links_test_pos
+
+        # Log the number of negative samples needed
+        self.logger.info(f"Generating {n_links_train_neg} negative samples for training and {n_links_test_neg} negative samples for testing.")
         
-        # Create an empty graph for negative links
-        neg_network = nx.empty_graph(self.network.number_of_nodes())
-        links_neg = list(nx.non_edges(self.network))
-        neg_network.add_edges_from(links_neg)
+        # Create lists for valid negative links
+        resource_nodes = [node for node, role in self.node_classes.items() if role == 'resource']
+        top_consumer_nodes = [node for node, role in self.node_classes.items() if role == 'top consumer']
 
-        n_links_neg = neg_network.number_of_edges()
+        # Generate valid negative links
+        resource_resource_neg_links = list(nx.non_edges(self.network.subgraph(resource_nodes)))
+        top_consumer_top_consumer_neg_links = list(nx.non_edges(self.network.subgraph(top_consumer_nodes)))
+        
+        # Combine the valid negative links
+        valid_neg_links = resource_resource_neg_links + top_consumer_top_consumer_neg_links
+        
+        # Log if there are no valid negative links
+        if len(valid_neg_links) == 0:
+            self.logger.warning("No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.")
+        
+        # If no valid negative links are available, fallback to random sampling
+        if len(valid_neg_links) < (n_links_train_neg + n_links_test_neg):
+            self.logger.warning("Falling back to random negative sampling.")
+            valid_neg_links = list(nx.non_edges(self.network))  # Use all non-edges in the network
 
-        # Randomly select negative links for training and testing
-        selected_links_neg_id = np.random.choice(np.arange(n_links_neg), size=n_links_train_neg + n_links_test_neg, replace=False)
+        # Shuffle and select the required number of negative links for train and test
+        np.random.shuffle(valid_neg_links)
+        
+        selected_neg_links_train = valid_neg_links[:n_links_train_neg]
+        selected_neg_links_test = valid_neg_links[n_links_train_neg:n_links_train_neg + n_links_test_neg]
         
         # Create empty negative training and testing networks
         self.neg_network_train = nx.empty_graph(self.network.number_of_nodes())
         self.neg_network_test = nx.empty_graph(self.network.number_of_nodes())
+        
+        # Add the selected negative links
+        self.neg_network_train.add_edges_from(selected_neg_links_train)
+        self.neg_network_test.add_edges_from(selected_neg_links_test)
 
-        # Assign negative edges to the training set
-        selected_train_neg_links = [links_neg[link_id] for link_id in selected_links_neg_id[:n_links_train_neg]]
-        self.neg_network_train.add_edges_from(selected_train_neg_links)
-
-        # Assign negative edges to the testing set
-        selected_test_neg_links = [links_neg[link_id] for link_id in selected_links_neg_id[n_links_train_neg:]]
-        self.neg_network_test.add_edges_from(selected_test_neg_links)
+        # Log the number of negative samples
+        self.logger.info(f"Training Negative Samples: {len(self.neg_network_train.edges)}")
+        self.logger.info(f"Testing Negative Samples: {len(self.neg_network_test.edges)}")
     
     def get_train_test_negative_networks(self):
         """
@@ -109,7 +154,7 @@ class DivideNet:
         :return: Tuple of (neg_network_train, neg_network_test)
         """
         if self.neg_network_train is None or self.neg_network_test is None:
-            self.generate_negative_samples()
+            self.generate_biologically_realistic_negative_samples()
         return self.neg_network_train, self.neg_network_test
 
     def get_combined_train_test_links(self):

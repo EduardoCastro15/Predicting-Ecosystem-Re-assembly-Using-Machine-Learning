@@ -1,37 +1,53 @@
 import numpy as np
 import time
+import logging
 
 from WLNM import WLNM
 from DivideNet import DivideNet
 from DataLoader import DataLoader
 from GraphVisualizer import GraphVisualizer
 
+# Set up logging
+logging.basicConfig(filename='logs/L1P1_log.log', level=logging.INFO, 
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
 if __name__ == "__main__":
     """
     Importing the dataset
     """
     # Specify the file path (can be either .mat or .csv)
-    file_path = 'data/USAir.mat'  # or 'data/NS.mat'
+    file_path = 'data/foodwebs/L1P1.csv'  # or 'data/NS.mat'
+
+    # Log dataset information
+    logging.info(f"Loading dataset from {file_path}")
 
     # Create an instance of DataLoader and load the data
     data_loader = DataLoader(file_path)
-    network = data_loader.load_data()
+    network, node_classes = data_loader.load_data()
     
     # Visualize network
-    GraphVisualizer(network).draw_graph()
+    # GraphVisualizer(network).draw_graph()
+
+    # Check if node_classes is available (it will be None for .mat files)
+    if node_classes is None:
+        logging.info("Node classification not available for this dataset (e.g., .mat file).")
+        node_classes = {}  # Fallback if node_classes is not available
 
     # Variable to store AUC scores
     auc_scores = []
 
+    # Number of iterations
+    iterations = 1
+
     # Loop for 10 iterations
-    for i in range(1):
-        print(f"Iteration {i+1}")
+    for i in range(iterations):
+        logging.info(f"Iteration {i+1} started")
 
         """
         Dividing the network into the training and test networks
         """
         # Create an instance of DivideNet and split the network into training and testing
-        network_splitter = DivideNet(network, test_ratio=0.1)
+        network_splitter = DivideNet(network, test_ratio=0.1, neg_ratio=2, node_classes=node_classes)
         network_train, network_test = network_splitter.get_train_test_networks()
 
         # Visualize the training and test networks
@@ -72,13 +88,19 @@ if __name__ == "__main__":
         wlnm.train_model()  # Train the model
         end_time = time.time()  # Record the end time
 
-        # Calculate and print the execution time
-        print(f"Time taken to train the WLNM model: {end_time - start_time:.2f} seconds")
+        # Log the execution time
+        execution_time = end_time - start_time
+        logging.info(f"Iteration {i+1} - Time taken to train the model: {execution_time:.2f} seconds")
 
         # Evaluate the model and get the AUC
         auc = wlnm.evaluate_model()
         auc_scores.append(auc)  # Store the AUC score for this iteration
 
+        # Log the AUC score for the current iteration
+        logging.info(f"Iteration {i+1} - AUC: {auc:.4f}")
+
     # Calculate and print the average AUC after 10 iterations
     average_auc = np.mean(auc_scores)
-    print(f"Average AUC over 10 iterations: {average_auc:.4f}")
+    # Log the final average AUC
+    logging.info(f"Final average AUC over {iterations} iterations: {average_auc:.4f}")
+    logging.info(f"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")

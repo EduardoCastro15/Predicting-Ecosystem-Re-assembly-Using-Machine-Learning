@@ -98,9 +98,11 @@ class WLNM:
         for node in subgraph.nodes:
             distance_to_u = distance_to_v = 0
             if node != u:
-                distance_to_u = nx.shortest_path_length(subgraph, source=node, target=u) if node in u_reachable else 2 ** n_nodes
+                # distance_to_u = nx.shortest_path_length(subgraph, source=node, target=u) if node in u_reachable else 2 ** n_nodes
+                distance_to_u = nx.shortest_path_length(subgraph, source=node, target=u) if node in u_reachable else float('inf')
             if node != v:
-                distance_to_v = nx.shortest_path_length(subgraph, source=node, target=v) if node in v_reachable else 2 ** n_nodes
+                # distance_to_v = nx.shortest_path_length(subgraph, source=node, target=v) if node in v_reachable else 2 ** n_nodes
+                distance_to_v = nx.shortest_path_length(subgraph, source=node, target=v) if node in v_reachable else float('inf')
             subgraph.nodes[node]['avg_dist'] = math.sqrt(distance_to_u * distance_to_v)
         subgraph.add_edge(u, v, distance=0)
         return subgraph
@@ -120,10 +122,15 @@ class WLNM:
             tmp_subgraph.remove_edge(link[0], link[1])
         avg_dist = nx.get_node_attributes(tmp_subgraph, 'avg_dist')
         df = pd.DataFrame.from_dict(avg_dist, orient='index', columns=['hash_value']).sort_index()
+
+        # Ensure there are no NaN or inf values in 'hash_value'
+        df['hash_value'].replace([np.inf, -np.inf], np.nan, inplace=True)
+        df['hash_value'].fillna(0, inplace=True)
+
         df['order'] = df['hash_value'].rank(axis=0, method='min').astype(int)
         df['previous_order'] = np.zeros(df.shape[0], dtype=int)
         adj_matrix = nx.adjacency_matrix(tmp_subgraph, nodelist=sorted(tmp_subgraph.nodes)).todense()
-        prime_numbers = np.array([i for i in range(10000) if WLNM.prime(i)], dtype=int)
+        prime_numbers = np.array([i for i in range(15000) if WLNM.prime(i)], dtype=int)
 
         while any(df.order != df.previous_order):
             df['log_prime'] = np.log(prime_numbers[df['order'].values])
