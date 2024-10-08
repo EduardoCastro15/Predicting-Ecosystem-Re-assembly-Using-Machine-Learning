@@ -124,8 +124,8 @@ class WLNM:
         df = pd.DataFrame.from_dict(avg_dist, orient='index', columns=['hash_value']).sort_index()
 
         # Ensure there are no NaN or inf values in 'hash_value'
-        df['hash_value'].replace([np.inf, -np.inf], np.nan, inplace=True)
-        df['hash_value'].fillna(0, inplace=True)
+        df['hash_value'] = df['hash_value'].replace([np.inf, -np.inf], np.nan)
+        df['hash_value'] = df['hash_value'].fillna(0)
 
         df['order'] = df['hash_value'].rank(axis=0, method='min').astype(int)
         df['previous_order'] = np.zeros(df.shape[0], dtype=int)

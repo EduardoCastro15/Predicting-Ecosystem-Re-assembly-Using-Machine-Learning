@@ -1,10 +1,13 @@
+import os
+import csv
+import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 
 class GraphVisualizer:
     """Class to handle the visualization of NetworkX graphs."""
     
-    def __init__(self, graph):
+    def __init__(self, graph=None):
         """
         Initialize the GraphVisualizer with a NetworkX graph.
 
@@ -66,3 +69,48 @@ class GraphVisualizer:
         
         # Show the plot
         plt.show()
+    
+    def plot_auc_by_size(self, csv_file_path):
+        """
+        Plot the AUC scores over iterations and generate separate curves by size.
+        
+        :param csv_file_path: Path to the CSV file containing iteration results.
+        """
+        iterations_list = []
+        auc_list = []
+        size_list = []
+
+        # Read the CSV file and extract data
+        with open(csv_file_path, mode='r') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                iterations_list.append(int(row["Iteration"]))
+                auc_list.append(float(row["AUC"]))
+                if row["Size"] is not None and row["Size"] != '':
+                    size_list.append(int(row["Size"]))
+                else:
+                    size_list.append(0)  # Handle missing size values
+        
+        # Get unique sizes to plot separate curves
+        unique_sizes = sorted(set(size_list))
+        colors = plt.cm.viridis(np.linspace(0, 1, len(unique_sizes)))  # Generate distinct colors
+
+        # Plot the AUC for each size
+        for i, unique_size in enumerate(unique_sizes):
+            indices = [j for j, s in enumerate(size_list) if s == unique_size]
+            auc_for_size = [auc_list[j] for j in indices]
+            iterations_for_size = [iterations_list[j] for j in indices]
+            plt.plot(iterations_for_size, auc_for_size, marker='o', linestyle='-', color=colors[i], label=f'Size {unique_size}')
+
+        # Add labels, title, and legend
+        plt.xlabel('Iteration')
+        plt.ylabel('AUC Score')
+        plt.title('AUC Score Over Iterations by Size')
+        plt.legend(title='Size')
+        plt.grid(True)
+        plt.show()
+
+        # Print the size of the CSV file
+        csv_file_size = os.path.getsize(csv_file_path) / 1024  # Convert to KB
+        print(f"Size of the CSV file: {csv_file_size:.2f} KB")
+    

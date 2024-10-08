@@ -34,9 +34,14 @@ class DataLoader:
 
         # Load data based on the file extension
         if file_extension == '.mat':
-            return self._load_mat_file()
+            network = self._load_mat_file()
+            node_classes = None  # No node classes for .mat files
+            return network, node_classes
         elif file_extension == '.csv':
-            return self._load_csv_file()
+            network, node_classes = self._load_csv_file()
+            connectance = self._calculate_connectance(network)
+            self.logger.info(f"    Connectance of the network: {connectance}")
+            return network, node_classes
         else:
             raise ValueError(f"Unsupported file format: {file_extension}")
 
@@ -94,9 +99,9 @@ class DataLoader:
         self.node_classes = self._classify_nodes(consumers, resources)
 
         # Log the number of node classes
-        self.logger.info(f"Number of resources: {sum(1 for node, role in self.node_classes.items() if role == 'resource')}")
-        self.logger.info(f"Number of consumers: {sum(1 for node, role in self.node_classes.items() if role == 'consumer')}")
-        self.logger.info(f"Number of top consumers: {sum(1 for node, role in self.node_classes.items() if role == 'top consumer')}")
+        self.logger.info(f"    Number of resources: {sum(1 for node, role in self.node_classes.items() if role == 'resource')}")
+        self.logger.info(f"    Number of consumers: {sum(1 for node, role in self.node_classes.items() if role == 'consumer')}")
+        self.logger.info(f"    Number of top consumers: {sum(1 for node, role in self.node_classes.items() if role == 'top consumer')}")
 
         return network, self.node_classes
 
@@ -122,3 +127,18 @@ class DataLoader:
                 node_classes[consumer] = 'consumer'
 
         return node_classes
+
+    # Function to calculate the connectance of a network
+    def _calculate_connectance(self, network):
+        """
+        Calculate the connectance of the network (ratio of existing links to all possible links).
+        """
+        num_nodes = network.number_of_nodes()
+        if num_nodes > 1:
+            # For directed networks, the possible links are n * (n-1)
+            n_possible_links = num_nodes * (num_nodes - 1)  # Directed graph possible links
+            n_existing_links = network.number_of_edges()
+            connectance = n_existing_links / n_possible_links
+        else:
+            connectance = 0  # If the network has 1 or fewer nodes, connectance is 0
+        return connectance

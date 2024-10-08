@@ -38,10 +38,10 @@ class DivideNet:
         
         # Calculates the number of edges in the train network
         n_links = self.network_train.number_of_edges()
-        self.logger.info(f"Total number of links in the network: {n_links}")
+        self.logger.info(f"    Total number of links in the network: {n_links}")
         # Calculates the number of edges to be used for testing
         n_links_test = math.ceil(self.test_ratio * n_links)
-        self.logger.info(f"Number of links for testing: {n_links_test}")
+        self.logger.info(f"    Number of links for testing: {n_links_test}")
 
         # Convert the adjacency matrix to a sparse matrix and extract the upper triangular portion
         network_adj_matrix = nx.to_scipy_sparse_array(self.network)
@@ -66,8 +66,8 @@ class DivideNet:
         self.network_test.add_edges_from(selected_links)
 
         # Log the number of positive edges in training and testing
-        self.logger.info(f"Training Positive Samples: {self.network_train.number_of_edges()}")
-        self.logger.info(f"Testing Positive Samples: {self.network_test.number_of_edges()}")
+        self.logger.info(f"    Training Positive Samples: {self.network_train.number_of_edges()}")
+        self.logger.info(f"    Testing Positive Samples: {self.network_test.number_of_edges()}")
     
     def get_train_test_networks(self):
         """
@@ -106,9 +106,6 @@ class DivideNet:
         n_links_train_neg = self.neg_ratio * n_links_train_pos
         n_links_test_neg = self.neg_ratio * n_links_test_pos
 
-        # Log the number of negative samples needed
-        self.logger.info(f"Generating {n_links_train_neg} negative samples for training and {n_links_test_neg} negative samples for testing.")
-        
         # Create lists for valid negative links
         resource_nodes = [node for node, role in self.node_classes.items() if role == 'resource']
         top_consumer_nodes = [node for node, role in self.node_classes.items() if role == 'top consumer']
@@ -144,8 +141,10 @@ class DivideNet:
         self.neg_network_test.add_edges_from(selected_neg_links_test)
 
         # Log the number of negative samples
-        self.logger.info(f"Training Negative Samples: {len(self.neg_network_train.edges)}")
-        self.logger.info(f"Testing Negative Samples: {len(self.neg_network_test.edges)}")
+        self.logger.info(f"    Training Negative Samples: {len(self.neg_network_train.edges)}")
+        self.logger.info(f"    Testing Negative Samples: {len(self.neg_network_test.edges)}")
+        self.logger.info(f"    Ratio of Training Positive/Negative: {len(self.network_train.edges()) / max(len(self.neg_network_train.edges()), 1)}")
+        self.logger.info(f"    Ratio of Testing Positive/Negative: {len(self.network_test.edges()) / max(len(self.neg_network_test.edges()), 1)}")
     
     def get_train_test_negative_networks(self):
         """
