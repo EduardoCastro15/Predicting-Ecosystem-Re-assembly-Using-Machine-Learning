@@ -1,0 +1,23 @@
+2024-09-23 09:29:44,177 - INFO - Loading dataset from data/foodwebs/Chesapeake Bay.csv
+2024-09-23 09:29:44,245 - INFO - Iteration 1 started
+2024-09-23 09:59:51,416 - INFO - Iteration 1 - Time taken to train the model: 1807.06 seconds
+2024-09-23 10:03:18,064 - INFO - Iteration 1 - AUC: 0.7087
+2024-09-23 10:03:18,065 - INFO - Final average AUC over 1 iterations: 0.7087
+2024-10-07 10:45:50,739 - INFO - Loading dataset from data/foodwebs/Chesapeake Bay.csv
+2024-10-07 10:45:50,739 - INFO -     Size of k = 50
+2024-10-07 10:45:50,739 - INFO -     Test ratio = 0.1
+2024-10-07 10:45:50,847 - INFO -     Number of resources: 148
+2024-10-07 10:45:50,848 - INFO -     Number of consumers: 1
+2024-10-07 10:45:50,848 - INFO -     Number of top consumers: 372
+2024-10-07 10:45:50,849 - INFO -     Connectance of the network: 0.05222205817215414
+2024-10-07 10:45:50,849 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started~~~~~~~~~~~~~~~
+2024-10-07 10:45:50,894 - INFO -     Total number of links in the network: 14148
+2024-10-07 10:45:50,894 - INFO -     Number of links for testing: 1415
+2024-10-07 10:45:50,916 - INFO -     Training Positive Samples: 12733
+2024-10-07 10:45:50,916 - INFO -     Testing Positive Samples: 1415
+2024-10-07 10:45:50,916 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-07 10:45:50,916 - WARNING - Falling back to random negative sampling.
+2024-10-07 10:45:50,951 - INFO -     Training Negative Samples: 25466
+2024-10-07 10:45:50,952 - INFO -     Testing Negative Samples: 2830
+2024-10-07 10:45:50,952 - INFO -     Ratio of Training Positive/Negative: 0.5
+2024-10-07 10:45:50,952 - INFO -     Ratio of Testing Positive/Negative: 0.5

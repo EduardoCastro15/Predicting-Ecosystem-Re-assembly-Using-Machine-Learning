@@ -1,0 +1,10 @@
+2024-09-23 07:52:28,058 - INFO - Loading dataset from data/foodwebs/Weddell Sea.mat
+2024-09-23 07:52:38,865 - INFO - Loading dataset from data/foodwebs/Weddell Sea.csv
+2024-09-23 07:52:38,947 - INFO - Iteration 1 started
+2024-09-23 07:53:09,485 - INFO - Loading dataset from data/foodwebs/Weddell Sea.csv
+2024-09-23 07:53:09,543 - INFO - Iteration 1 started
+2024-09-23 08:07:47,255 - INFO - Loading dataset from data/foodwebs/Weddell Sea.csv
+2024-09-23 08:07:47,325 - INFO - Iteration 1 started
+2024-09-23 08:45:56,965 - INFO - Iteration 1 - Time taken to train the model: 2289.53 seconds
+2024-09-23 08:50:28,797 - INFO - Iteration 1 - AUC: 0.6770
+2024-09-23 08:50:28,797 - INFO - Final average AUC over 1 iterations: 0.6770

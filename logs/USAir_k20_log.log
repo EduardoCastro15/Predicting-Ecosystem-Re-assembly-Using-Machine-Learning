@@ -1,0 +1,32 @@
+2024-09-23 12:04:05,883 - INFO - Loading dataset from data/USAir.mat
+2024-09-23 12:04:05,889 - INFO - Iteration 1 started
+2024-09-23 12:07:17,322 - INFO - Iteration 1 - Time taken to train the model: 191.38 seconds
+2024-09-23 12:07:38,192 - INFO - Iteration 1 - AUC: 0.8838
+2024-09-23 12:07:38,192 - INFO - Iteration 2 started
+2024-09-23 12:11:08,688 - INFO - Iteration 2 - Time taken to train the model: 210.44 seconds
+2024-09-23 12:11:32,416 - INFO - Iteration 2 - AUC: 0.8744
+2024-09-23 12:11:32,416 - INFO - Iteration 3 started
+2024-09-23 12:15:16,141 - INFO - Iteration 3 - Time taken to train the model: 223.67 seconds
+2024-09-23 12:15:41,827 - INFO - Iteration 3 - AUC: 0.8850
+2024-09-23 12:15:41,828 - INFO - Iteration 4 started
+2024-09-23 12:19:38,139 - INFO - Iteration 4 - Time taken to train the model: 236.26 seconds
+2024-09-23 12:20:06,627 - INFO - Iteration 4 - AUC: 0.8862
+2024-09-23 12:20:06,628 - INFO - Iteration 5 started
+2024-09-23 12:24:02,152 - INFO - Iteration 5 - Time taken to train the model: 235.48 seconds
+2024-09-23 12:24:31,596 - INFO - Iteration 5 - AUC: 0.8908
+2024-09-23 12:24:31,596 - INFO - Iteration 6 started
+2024-09-23 12:28:38,618 - INFO - Iteration 6 - Time taken to train the model: 246.96 seconds
+2024-09-23 12:29:06,400 - INFO - Iteration 6 - AUC: 0.8627
+2024-09-23 12:29:06,400 - INFO - Iteration 7 started
+2024-09-23 12:33:14,573 - INFO - Iteration 7 - Time taken to train the model: 248.09 seconds
+2024-09-23 12:33:41,207 - INFO - Iteration 7 - AUC: 0.8944
+2024-09-23 12:33:41,207 - INFO - Iteration 8 started
+2024-09-23 12:37:44,706 - INFO - Iteration 8 - Time taken to train the model: 243.45 seconds
+2024-09-23 12:38:13,840 - INFO - Iteration 8 - AUC: 0.8991
+2024-09-23 12:38:13,840 - INFO - Iteration 9 started
+2024-09-23 12:42:17,373 - INFO - Iteration 9 - Time taken to train the model: 243.48 seconds
+2024-09-23 12:42:44,825 - INFO - Iteration 9 - AUC: 0.8850
+2024-09-23 12:42:44,825 - INFO - Iteration 10 started
+2024-09-23 12:46:54,124 - INFO - Iteration 10 - Time taken to train the model: 249.23 seconds
+2024-09-23 12:47:22,590 - INFO - Iteration 10 - AUC: 0.8791
+2024-09-23 12:47:22,590 - INFO - Final average AUC over 10 iterations: 0.8840

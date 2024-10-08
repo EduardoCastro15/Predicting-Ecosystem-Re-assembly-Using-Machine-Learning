@@ -81,7 +81,7 @@ ehthumbs.db
 .vscode/
 
 # Logs
-*.log
+# *.log
 
 # Binary files
 # *.mat

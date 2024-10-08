@@ -1,0 +1,67 @@
+2024-09-23 06:40:40,034 - INFO - Loading dataset from data/USAir.mat
+2024-09-23 06:40:40,041 - INFO - Iteration 1 started
+2024-09-23 06:42:38,302 - INFO - Iteration 1 - Time taken to train the model: 118.21 seconds
+2024-09-23 06:42:52,074 - INFO - Iteration 1 - AUC: 0.8897
+2024-09-23 06:42:52,075 - INFO - Iteration 2 started
+2024-09-23 06:44:50,315 - INFO - Iteration 2 - Time taken to train the model: 118.19 seconds
+2024-09-23 06:45:02,460 - INFO - Iteration 2 - AUC: 0.8967
+2024-09-23 06:45:02,460 - INFO - Iteration 3 started
+2024-09-23 06:46:49,954 - INFO - Iteration 3 - Time taken to train the model: 107.44 seconds
+2024-09-23 06:47:02,268 - INFO - Iteration 3 - AUC: 0.9026
+2024-09-23 06:47:02,269 - INFO - Iteration 4 started
+2024-09-23 06:48:49,864 - INFO - Iteration 4 - Time taken to train the model: 107.55 seconds
+2024-09-23 06:49:02,450 - INFO - Iteration 4 - AUC: 0.9061
+2024-09-23 06:49:02,450 - INFO - Iteration 5 started
+2024-09-23 06:50:58,069 - INFO - Iteration 5 - Time taken to train the model: 115.58 seconds
+2024-09-23 06:51:10,735 - INFO - Iteration 5 - AUC: 0.8862
+2024-09-23 06:51:10,735 - INFO - Iteration 6 started
+2024-09-23 06:53:04,787 - INFO - Iteration 6 - Time taken to train the model: 114.01 seconds
+2024-09-23 06:53:17,625 - INFO - Iteration 6 - AUC: 0.8662
+2024-09-23 06:53:17,625 - INFO - Iteration 7 started
+2024-09-23 06:55:07,116 - INFO - Iteration 7 - Time taken to train the model: 109.44 seconds
+2024-09-23 06:55:19,821 - INFO - Iteration 7 - AUC: 0.8779
+2024-09-23 06:55:19,821 - INFO - Iteration 8 started
+2024-09-23 06:57:11,289 - INFO - Iteration 8 - Time taken to train the model: 111.42 seconds
+2024-09-23 06:57:24,324 - INFO - Iteration 8 - AUC: 0.8815
+2024-09-23 06:57:24,325 - INFO - Iteration 9 started
+2024-09-23 06:59:15,873 - INFO - Iteration 9 - Time taken to train the model: 111.51 seconds
+2024-09-23 06:59:28,733 - INFO - Iteration 9 - AUC: 0.8768
+2024-09-23 06:59:28,733 - INFO - Iteration 10 started
+2024-09-23 07:01:19,941 - INFO - Iteration 10 - Time taken to train the model: 111.17 seconds
+2024-09-23 07:01:32,877 - INFO - Iteration 10 - AUC: 0.9108
+2024-09-23 07:01:32,877 - INFO - Final average AUC over 10 iterations: 0.8894
+2024-09-24 11:14:10,291 - INFO - Loading dataset from data/USAir.mat
+2024-09-24 11:14:10,302 - INFO - Iteration 1 started
+2024-09-24 11:19:42,356 - INFO - Iteration 1 - Time taken to train the model: 331.97 seconds
+2024-09-24 11:20:39,729 - INFO - Iteration 1 - AUC: 0.8333
+2024-09-24 11:20:39,730 - INFO - Iteration 2 started
+2024-09-24 11:26:50,826 - INFO - Iteration 2 - Time taken to train the model: 370.84 seconds
+2024-09-24 11:28:50,765 - INFO - Loading dataset from data/USAir.mat
+2024-09-24 11:28:50,777 - INFO - Iteration 1 started
+2024-09-24 11:33:06,423 - INFO - Iteration 1 - Time taken to train the model: 255.57 seconds
+2024-09-24 11:33:35,697 - INFO - Iteration 1 - AUC: 0.8838
+2024-09-24 11:33:35,697 - INFO - Final average AUC over 1 iterations: 0.8838
+2024-09-24 11:33:35,697 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-09-24 12:09:29,566 - INFO - Loading dataset from data/USAir.mat
+2024-09-24 12:09:29,576 - INFO - Iteration 1 started
+2024-09-24 12:10:56,789 - INFO - Loading dataset from data/USAir.mat
+2024-09-24 12:10:56,799 - INFO - Iteration 1 started
+2024-09-24 12:19:05,746 - INFO - Loading dataset from data/USAir.mat
+2024-10-07 10:20:46,405 - INFO - Loading dataset from data/USAir.mat
+2024-10-07 10:20:46,405 - INFO -     Size of k = 50
+2024-10-07 10:20:46,405 - INFO -     Test ratio = 0.1
+2024-10-07 10:27:10,490 - INFO - Loading dataset from data/USAir.mat
+2024-10-07 10:27:10,491 - INFO -     Size of k = 50
+2024-10-07 10:27:10,491 - INFO -     Test ratio = 0.1
+2024-10-07 10:27:10,500 - WARNING - Node classification not available for this dataset (e.g., .mat file).
+2024-10-07 10:27:10,500 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started~~~~~~~~~~~~~~~
+2024-10-07 10:27:10,503 - INFO -     Total number of links in the network: 2126
+2024-10-07 10:27:10,503 - INFO -     Number of links for testing: 213
+2024-10-07 10:27:10,508 - INFO -     Training Positive Samples: 1913
+2024-10-07 10:27:10,508 - INFO -     Testing Positive Samples: 213
+2024-10-07 10:27:10,508 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-07 10:27:10,508 - WARNING - Falling back to random negative sampling.
+2024-10-07 10:27:10,545 - INFO -     Training Negative Samples: 3826
+2024-10-07 10:27:10,545 - INFO -     Testing Negative Samples: 426
+2024-10-07 10:27:10,545 - INFO -     Ratio of Training Positive/Negative: 0.5
+2024-10-07 10:27:10,545 - INFO -     Ratio of Testing Positive/Negative: 0.5

@@ -1,0 +1,32 @@
+2024-09-23 07:05:39,990 - INFO - Loading dataset from data/Celegans.mat
+2024-09-23 07:05:39,996 - INFO - Iteration 1 started
+2024-09-23 07:06:51,442 - INFO - Iteration 1 - Time taken to train the model: 71.40 seconds
+2024-09-23 07:06:59,391 - INFO - Iteration 1 - AUC: 0.7756
+2024-09-23 07:06:59,391 - INFO - Iteration 2 started
+2024-09-23 07:08:06,696 - INFO - Iteration 2 - Time taken to train the model: 67.25 seconds
+2024-09-23 07:08:14,718 - INFO - Iteration 2 - AUC: 0.7791
+2024-09-23 07:08:14,718 - INFO - Iteration 3 started
+2024-09-23 07:09:26,244 - INFO - Iteration 3 - Time taken to train the model: 71.49 seconds
+2024-09-23 07:09:33,784 - INFO - Iteration 3 - AUC: 0.7721
+2024-09-23 07:09:33,784 - INFO - Iteration 4 started
+2024-09-23 07:10:43,219 - INFO - Iteration 4 - Time taken to train the model: 69.41 seconds
+2024-09-23 07:10:51,246 - INFO - Iteration 4 - AUC: 0.7558
+2024-09-23 07:10:51,246 - INFO - Iteration 5 started
+2024-09-23 07:12:05,890 - INFO - Iteration 5 - Time taken to train the model: 74.62 seconds
+2024-09-23 07:12:15,939 - INFO - Iteration 5 - AUC: 0.7535
+2024-09-23 07:12:15,939 - INFO - Iteration 6 started
+2024-09-23 07:13:32,083 - INFO - Iteration 6 - Time taken to train the model: 76.09 seconds
+2024-09-23 07:13:40,639 - INFO - Iteration 6 - AUC: 0.7547
+2024-09-23 07:13:40,639 - INFO - Iteration 7 started
+2024-09-23 07:14:52,380 - INFO - Iteration 7 - Time taken to train the model: 71.70 seconds
+2024-09-23 07:15:00,701 - INFO - Iteration 7 - AUC: 0.7663
+2024-09-23 07:15:00,701 - INFO - Iteration 8 started
+2024-09-23 07:16:15,292 - INFO - Iteration 8 - Time taken to train the model: 74.55 seconds
+2024-09-23 07:16:23,883 - INFO - Iteration 8 - AUC: 0.7907
+2024-09-23 07:16:23,884 - INFO - Iteration 9 started
+2024-09-23 07:17:37,307 - INFO - Iteration 9 - Time taken to train the model: 73.38 seconds
+2024-09-23 07:17:45,611 - INFO - Iteration 9 - AUC: 0.7663
+2024-09-23 07:17:45,614 - INFO - Iteration 10 started
+2024-09-23 07:19:09,630 - INFO - Iteration 10 - Time taken to train the model: 83.92 seconds
+2024-09-23 07:19:18,758 - INFO - Iteration 10 - AUC: 0.7651
+2024-09-23 07:19:18,758 - INFO - Final average AUC over 10 iterations: 0.7679

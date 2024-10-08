@@ -1,0 +1,1703 @@
+2024-10-08 23:57:04,190 - INFO - Loading dataset from data/foodwebs/{foodweb_name}.csv for dataset: SF1M1
+2024-10-08 23:57:04,190 - INFO -     Size of k = 10
+2024-10-08 23:57:04,190 - INFO -     Test ratio = 0.1
+2024-10-09 00:01:46,485 - INFO - Loading dataset from data/foodwebs/SF1M1.csv for dataset: SF1M1
+2024-10-09 00:01:46,486 - INFO -     Size of k = 10
+2024-10-09 00:01:46,486 - INFO -     Test ratio = 0.1
+2024-10-09 00:01:46,489 - INFO -     Number of resources: 5
+2024-10-09 00:01:46,489 - INFO -     Number of consumers: 0
+2024-10-09 00:01:46,489 - INFO -     Number of top consumers: 7
+2024-10-09 00:01:46,489 - INFO -     Connectance of the network: 0.21212121212121213
+2024-10-09 00:01:46,489 - INFO - ~~~~~~~Processing for Size 5 started for SF1M1~~~~~~~
+2024-10-09 00:01:46,489 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:46,489 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:46,489 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:46,492 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:46,492 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:46,492 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:46,492 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:46,492 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:46,492 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:46,492 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:46,492 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:01:48,060 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.57 seconds
+2024-10-09 00:01:48,139 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:01:48,139 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:48,140 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:48,140 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:48,140 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:48,140 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:48,140 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:48,140 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:48,140 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:48,140 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:48,140 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:48,140 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:01:49,743 - INFO - Iteration 2 - Time taken to train the model for SF1M1: 1.60 seconds
+2024-10-09 00:01:49,809 - INFO - Iteration 2 - AUC: nan for SF1M1
+2024-10-09 00:01:49,810 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:49,810 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:49,810 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:49,810 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:49,810 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:49,810 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:49,810 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:49,810 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:49,810 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:49,810 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:49,810 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:01:51,475 - INFO - Iteration 3 - Time taken to train the model for SF1M1: 1.66 seconds
+2024-10-09 00:01:51,553 - INFO - Iteration 3 - AUC: nan for SF1M1
+2024-10-09 00:01:51,553 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:51,553 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:51,553 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:51,554 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:51,554 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:51,554 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:51,554 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:51,554 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:51,554 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:51,554 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:51,554 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:01:53,111 - INFO - Iteration 4 - Time taken to train the model for SF1M1: 1.56 seconds
+2024-10-09 00:01:53,190 - INFO - Iteration 4 - AUC: nan for SF1M1
+2024-10-09 00:01:53,190 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:53,190 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:53,190 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:53,190 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:53,190 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:53,191 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:53,191 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:53,191 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:53,191 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:53,191 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:53,191 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:01:54,801 - INFO - Iteration 5 - Time taken to train the model for SF1M1: 1.61 seconds
+2024-10-09 00:01:54,879 - INFO - Iteration 5 - AUC: nan for SF1M1
+2024-10-09 00:01:54,879 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:54,879 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:54,879 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:54,880 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:54,880 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:54,880 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:54,880 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:54,880 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:54,880 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:54,880 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:54,880 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:01:56,442 - INFO - Iteration 6 - Time taken to train the model for SF1M1: 1.56 seconds
+2024-10-09 00:01:56,520 - INFO - Iteration 6 - AUC: nan for SF1M1
+2024-10-09 00:01:56,521 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:56,521 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:56,521 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:56,521 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:56,521 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:56,521 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:56,521 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:56,521 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:56,521 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:56,521 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:56,521 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:01:58,114 - INFO - Iteration 7 - Time taken to train the model for SF1M1: 1.59 seconds
+2024-10-09 00:01:58,179 - INFO - Iteration 7 - AUC: nan for SF1M1
+2024-10-09 00:01:58,180 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:58,180 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:58,180 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:58,180 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:58,180 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:58,180 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:58,180 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:58,180 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:58,180 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:58,181 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:58,181 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:01:59,788 - INFO - Iteration 8 - Time taken to train the model for SF1M1: 1.61 seconds
+2024-10-09 00:01:59,865 - INFO - Iteration 8 - AUC: nan for SF1M1
+2024-10-09 00:01:59,866 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:01:59,866 - INFO -     Total number of links in the network: 28
+2024-10-09 00:01:59,866 - INFO -     Number of links for testing: 3
+2024-10-09 00:01:59,866 - INFO -     Training Positive Samples: 25
+2024-10-09 00:01:59,866 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:01:59,866 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:01:59,866 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:01:59,866 - INFO -     Training Negative Samples: 40
+2024-10-09 00:01:59,866 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:01:59,866 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:01:59,866 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:01,469 - INFO - Iteration 9 - Time taken to train the model for SF1M1: 1.60 seconds
+2024-10-09 00:02:01,547 - INFO - Iteration 9 - AUC: nan for SF1M1
+2024-10-09 00:02:01,548 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:01,548 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:01,548 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:01,548 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:01,548 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:01,548 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:01,548 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:01,548 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:01,548 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:01,548 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:01,548 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:03,172 - INFO - Iteration 10 - Time taken to train the model for SF1M1: 1.62 seconds
+2024-10-09 00:02:03,252 - INFO - Iteration 10 - AUC: nan for SF1M1
+2024-10-09 00:02:03,253 - INFO - Final average AUC for SF1M1 over 10 iterations: nan
+2024-10-09 00:02:03,253 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:02:03,253 - INFO - ~~~~~~~Processing for Size 6 started for SF1M1~~~~~~~
+2024-10-09 00:02:03,253 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:03,253 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:03,253 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:03,253 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:03,253 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:03,253 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:03,253 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:03,254 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:03,254 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:03,254 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:03,254 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:04,901 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.65 seconds
+2024-10-09 00:02:04,979 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:02:04,980 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:04,980 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:04,980 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:04,980 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:04,980 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:04,980 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:04,980 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:04,981 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:04,981 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:04,981 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:04,981 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:06,598 - INFO - Iteration 2 - Time taken to train the model for SF1M1: 1.62 seconds
+2024-10-09 00:02:06,675 - INFO - Iteration 2 - AUC: nan for SF1M1
+2024-10-09 00:02:06,675 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:06,675 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:06,675 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:06,676 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:06,676 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:06,676 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:06,676 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:06,676 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:06,676 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:06,676 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:06,676 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:08,209 - INFO - Iteration 3 - Time taken to train the model for SF1M1: 1.53 seconds
+2024-10-09 00:02:08,287 - INFO - Iteration 3 - AUC: nan for SF1M1
+2024-10-09 00:02:08,287 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:08,287 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:08,287 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:08,288 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:08,288 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:08,288 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:08,288 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:08,288 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:08,288 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:08,288 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:08,288 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:09,874 - INFO - Iteration 4 - Time taken to train the model for SF1M1: 1.59 seconds
+2024-10-09 00:02:09,953 - INFO - Iteration 4 - AUC: nan for SF1M1
+2024-10-09 00:02:09,954 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:09,954 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:09,954 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:09,954 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:09,954 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:09,954 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:09,954 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:09,954 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:09,954 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:09,954 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:09,954 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:11,553 - INFO - Iteration 5 - Time taken to train the model for SF1M1: 1.60 seconds
+2024-10-09 00:02:11,631 - INFO - Iteration 5 - AUC: nan for SF1M1
+2024-10-09 00:02:11,631 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:11,632 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:11,632 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:11,632 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:11,632 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:11,632 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:11,632 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:11,632 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:11,632 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:11,632 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:11,632 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:13,233 - INFO - Iteration 6 - Time taken to train the model for SF1M1: 1.60 seconds
+2024-10-09 00:02:13,346 - INFO - Iteration 6 - AUC: nan for SF1M1
+2024-10-09 00:02:13,346 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:13,347 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:13,347 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:13,347 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:13,347 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:13,347 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:13,347 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:13,347 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:13,347 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:13,347 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:13,347 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:14,920 - INFO - Iteration 7 - Time taken to train the model for SF1M1: 1.57 seconds
+2024-10-09 00:02:14,998 - INFO - Iteration 7 - AUC: nan for SF1M1
+2024-10-09 00:02:14,998 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:14,998 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:14,998 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:14,999 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:14,999 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:14,999 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:14,999 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:14,999 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:14,999 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:14,999 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:14,999 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:16,651 - INFO - Iteration 8 - Time taken to train the model for SF1M1: 1.65 seconds
+2024-10-09 00:02:16,729 - INFO - Iteration 8 - AUC: nan for SF1M1
+2024-10-09 00:02:16,729 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:16,729 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:16,729 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:16,730 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:16,730 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:16,730 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:16,730 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:16,730 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:16,730 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:16,730 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:16,730 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:18,321 - INFO - Iteration 9 - Time taken to train the model for SF1M1: 1.59 seconds
+2024-10-09 00:02:18,398 - INFO - Iteration 9 - AUC: nan for SF1M1
+2024-10-09 00:02:18,399 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:18,399 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:18,399 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:18,399 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:18,399 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:18,399 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:18,399 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:18,400 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:18,400 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:18,400 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:18,400 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:19,976 - INFO - Iteration 10 - Time taken to train the model for SF1M1: 1.58 seconds
+2024-10-09 00:02:20,054 - INFO - Iteration 10 - AUC: nan for SF1M1
+2024-10-09 00:02:20,055 - INFO - Final average AUC for SF1M1 over 10 iterations: nan
+2024-10-09 00:02:20,055 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:02:20,055 - INFO - ~~~~~~~Processing for Size 7 started for SF1M1~~~~~~~
+2024-10-09 00:02:20,055 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:20,055 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:20,055 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:20,055 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:20,055 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:20,055 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:20,055 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:20,055 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:20,055 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:20,055 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:20,055 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:21,531 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.48 seconds
+2024-10-09 00:02:21,610 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:02:21,610 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:21,610 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:21,610 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:21,610 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:21,610 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:21,611 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:21,611 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:21,611 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:21,611 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:21,611 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:21,611 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:23,078 - INFO - Iteration 2 - Time taken to train the model for SF1M1: 1.47 seconds
+2024-10-09 00:02:23,156 - INFO - Iteration 2 - AUC: nan for SF1M1
+2024-10-09 00:02:23,156 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:23,157 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:23,157 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:23,157 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:23,157 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:23,157 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:23,157 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:23,157 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:23,157 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:23,157 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:23,157 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:24,582 - INFO - Iteration 3 - Time taken to train the model for SF1M1: 1.42 seconds
+2024-10-09 00:02:24,659 - INFO - Iteration 3 - AUC: nan for SF1M1
+2024-10-09 00:02:24,660 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:24,660 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:24,660 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:24,660 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:24,660 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:24,660 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:24,660 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:24,660 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:24,660 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:24,660 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:24,660 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:26,107 - INFO - Iteration 4 - Time taken to train the model for SF1M1: 1.45 seconds
+2024-10-09 00:02:26,185 - INFO - Iteration 4 - AUC: nan for SF1M1
+2024-10-09 00:02:26,185 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:26,185 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:26,185 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:26,186 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:26,186 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:26,186 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:26,186 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:26,186 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:26,186 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:26,186 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:26,186 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:27,666 - INFO - Iteration 5 - Time taken to train the model for SF1M1: 1.48 seconds
+2024-10-09 00:02:27,732 - INFO - Iteration 5 - AUC: nan for SF1M1
+2024-10-09 00:02:27,732 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:27,732 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:27,732 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:27,733 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:27,733 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:27,733 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:27,733 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:27,733 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:27,733 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:27,733 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:27,733 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:29,202 - INFO - Iteration 6 - Time taken to train the model for SF1M1: 1.47 seconds
+2024-10-09 00:02:29,279 - INFO - Iteration 6 - AUC: nan for SF1M1
+2024-10-09 00:02:29,280 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:29,280 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:29,280 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:29,280 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:29,280 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:29,280 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:29,280 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:29,280 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:29,281 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:29,281 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:29,281 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:30,696 - INFO - Iteration 7 - Time taken to train the model for SF1M1: 1.41 seconds
+2024-10-09 00:02:30,773 - INFO - Iteration 7 - AUC: nan for SF1M1
+2024-10-09 00:02:30,774 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:30,774 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:30,774 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:30,774 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:30,774 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:30,774 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:30,774 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:30,774 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:30,774 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:30,774 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:30,774 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:32,198 - INFO - Iteration 8 - Time taken to train the model for SF1M1: 1.42 seconds
+2024-10-09 00:02:32,275 - INFO - Iteration 8 - AUC: nan for SF1M1
+2024-10-09 00:02:32,275 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:32,275 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:32,275 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:32,276 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:32,276 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:32,276 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:32,276 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:32,276 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:32,276 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:32,276 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:32,276 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:33,744 - INFO - Iteration 9 - Time taken to train the model for SF1M1: 1.47 seconds
+2024-10-09 00:02:33,822 - INFO - Iteration 9 - AUC: nan for SF1M1
+2024-10-09 00:02:33,822 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:33,822 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:33,822 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:33,823 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:33,823 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:33,823 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:33,823 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:33,823 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:33,823 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:33,823 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:33,823 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:35,264 - INFO - Iteration 10 - Time taken to train the model for SF1M1: 1.44 seconds
+2024-10-09 00:02:35,341 - INFO - Iteration 10 - AUC: nan for SF1M1
+2024-10-09 00:02:35,341 - INFO - Final average AUC for SF1M1 over 10 iterations: nan
+2024-10-09 00:02:35,341 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:02:35,341 - INFO - ~~~~~~~Processing for Size 8 started for SF1M1~~~~~~~
+2024-10-09 00:02:35,341 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:35,341 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:35,341 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:35,342 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:35,342 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:35,342 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:35,342 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:35,342 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:35,342 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:35,342 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:35,342 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:36,727 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.39 seconds
+2024-10-09 00:02:36,805 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:02:36,806 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:36,806 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:36,806 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:36,806 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:36,806 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:36,806 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:36,806 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:36,806 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:36,806 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:36,806 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:36,806 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:38,123 - INFO - Iteration 2 - Time taken to train the model for SF1M1: 1.32 seconds
+2024-10-09 00:02:38,201 - INFO - Iteration 2 - AUC: nan for SF1M1
+2024-10-09 00:02:38,202 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:38,202 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:38,202 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:38,202 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:38,202 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:38,202 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:38,202 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:38,202 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:38,202 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:38,202 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:38,202 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:39,669 - INFO - Iteration 3 - Time taken to train the model for SF1M1: 1.47 seconds
+2024-10-09 00:02:39,748 - INFO - Iteration 3 - AUC: nan for SF1M1
+2024-10-09 00:02:39,748 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:39,748 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:39,748 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:39,749 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:39,749 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:39,749 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:39,749 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:39,749 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:39,749 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:39,749 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:39,749 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:41,279 - INFO - Iteration 4 - Time taken to train the model for SF1M1: 1.53 seconds
+2024-10-09 00:02:41,357 - INFO - Iteration 4 - AUC: nan for SF1M1
+2024-10-09 00:02:41,357 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:41,358 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:41,358 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:41,358 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:41,358 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:41,358 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:41,358 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:41,358 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:41,358 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:41,358 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:41,358 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:42,747 - INFO - Iteration 5 - Time taken to train the model for SF1M1: 1.39 seconds
+2024-10-09 00:02:42,812 - INFO - Iteration 5 - AUC: nan for SF1M1
+2024-10-09 00:02:42,812 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:42,812 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:42,812 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:42,812 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:42,812 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:42,812 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:42,812 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:42,813 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:42,813 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:42,813 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:42,813 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:44,169 - INFO - Iteration 6 - Time taken to train the model for SF1M1: 1.36 seconds
+2024-10-09 00:02:44,246 - INFO - Iteration 6 - AUC: nan for SF1M1
+2024-10-09 00:02:44,247 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:44,247 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:44,247 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:44,247 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:44,247 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:44,247 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:44,247 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:44,247 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:44,247 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:44,247 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:44,247 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:45,668 - INFO - Iteration 7 - Time taken to train the model for SF1M1: 1.42 seconds
+2024-10-09 00:02:45,721 - INFO - Iteration 7 - AUC: nan for SF1M1
+2024-10-09 00:02:45,721 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:45,721 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:45,721 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:45,722 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:45,722 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:45,722 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:45,722 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:45,722 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:45,722 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:45,722 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:45,722 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:47,073 - INFO - Iteration 8 - Time taken to train the model for SF1M1: 1.35 seconds
+2024-10-09 00:02:47,138 - INFO - Iteration 8 - AUC: nan for SF1M1
+2024-10-09 00:02:47,139 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:47,139 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:47,139 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:47,139 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:47,139 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:47,139 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:47,139 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:47,139 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:47,139 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:47,139 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:47,139 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:48,617 - INFO - Iteration 9 - Time taken to train the model for SF1M1: 1.48 seconds
+2024-10-09 00:02:48,657 - INFO - Iteration 9 - AUC: nan for SF1M1
+2024-10-09 00:02:48,657 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:48,657 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:48,657 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:48,658 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:48,658 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:48,658 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:48,658 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:48,658 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:48,658 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:48,658 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:48,658 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:50,063 - INFO - Iteration 10 - Time taken to train the model for SF1M1: 1.40 seconds
+2024-10-09 00:02:50,127 - INFO - Iteration 10 - AUC: nan for SF1M1
+2024-10-09 00:02:50,128 - INFO - Final average AUC for SF1M1 over 10 iterations: nan
+2024-10-09 00:02:50,128 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:02:50,128 - INFO - ~~~~~~~Processing for Size 9 started for SF1M1~~~~~~~
+2024-10-09 00:02:50,128 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:50,128 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:50,128 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:50,128 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:50,128 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:50,128 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:50,128 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:50,128 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:50,128 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:50,129 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:50,129 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:51,112 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 0.98 seconds
+2024-10-09 00:02:51,153 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:02:51,153 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:51,153 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:51,153 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:51,154 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:51,154 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:51,154 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:51,154 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:51,154 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:51,154 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:51,154 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:51,154 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:52,502 - INFO - Iteration 2 - Time taken to train the model for SF1M1: 1.35 seconds
+2024-10-09 00:02:52,566 - INFO - Iteration 2 - AUC: nan for SF1M1
+2024-10-09 00:02:52,567 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:52,567 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:52,567 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:52,567 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:52,567 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:52,567 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:52,567 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:52,567 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:52,567 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:52,567 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:52,567 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:53,649 - INFO - Iteration 3 - Time taken to train the model for SF1M1: 1.08 seconds
+2024-10-09 00:02:53,714 - INFO - Iteration 3 - AUC: nan for SF1M1
+2024-10-09 00:02:53,715 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:53,715 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:53,715 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:53,715 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:53,715 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:53,715 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:53,715 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:53,716 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:53,716 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:53,716 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:53,716 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:55,126 - INFO - Iteration 4 - Time taken to train the model for SF1M1: 1.41 seconds
+2024-10-09 00:02:55,169 - INFO - Iteration 4 - AUC: nan for SF1M1
+2024-10-09 00:02:55,169 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:55,169 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:55,169 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:55,170 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:55,170 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:55,170 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:55,170 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:55,170 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:55,170 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:55,170 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:55,170 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:56,680 - INFO - Iteration 5 - Time taken to train the model for SF1M1: 1.51 seconds
+2024-10-09 00:02:56,734 - INFO - Iteration 5 - AUC: nan for SF1M1
+2024-10-09 00:02:56,735 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:56,735 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:56,735 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:56,735 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:56,735 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:56,735 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:56,735 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:56,736 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:56,736 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:56,736 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:56,736 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:58,078 - INFO - Iteration 6 - Time taken to train the model for SF1M1: 1.34 seconds
+2024-10-09 00:02:58,144 - INFO - Iteration 6 - AUC: nan for SF1M1
+2024-10-09 00:02:58,144 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:58,145 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:58,145 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:58,145 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:58,145 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:58,145 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:58,145 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:58,145 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:58,145 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:58,145 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:58,145 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:02:59,569 - INFO - Iteration 7 - Time taken to train the model for SF1M1: 1.42 seconds
+2024-10-09 00:02:59,637 - INFO - Iteration 7 - AUC: nan for SF1M1
+2024-10-09 00:02:59,637 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:02:59,637 - INFO -     Total number of links in the network: 28
+2024-10-09 00:02:59,637 - INFO -     Number of links for testing: 3
+2024-10-09 00:02:59,638 - INFO -     Training Positive Samples: 25
+2024-10-09 00:02:59,638 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:02:59,638 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:02:59,638 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:02:59,638 - INFO -     Training Negative Samples: 40
+2024-10-09 00:02:59,638 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:02:59,638 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:02:59,638 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:01,037 - INFO - Iteration 8 - Time taken to train the model for SF1M1: 1.40 seconds
+2024-10-09 00:03:01,116 - INFO - Iteration 8 - AUC: nan for SF1M1
+2024-10-09 00:03:01,117 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:01,117 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:01,117 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:01,117 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:01,117 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:01,117 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:01,117 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:01,117 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:01,117 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:01,117 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:01,117 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:02,524 - INFO - Iteration 9 - Time taken to train the model for SF1M1: 1.41 seconds
+2024-10-09 00:03:02,606 - INFO - Iteration 9 - AUC: nan for SF1M1
+2024-10-09 00:03:02,606 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:02,606 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:02,606 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:02,607 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:02,607 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:02,607 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:02,607 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:02,607 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:02,607 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:02,607 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:02,607 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:04,056 - INFO - Iteration 10 - Time taken to train the model for SF1M1: 1.45 seconds
+2024-10-09 00:03:04,111 - INFO - Iteration 10 - AUC: nan for SF1M1
+2024-10-09 00:03:04,112 - INFO - Final average AUC for SF1M1 over 10 iterations: nan
+2024-10-09 00:03:04,112 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:03:04,112 - INFO - ~~~~~~~Processing for Size 10 started for SF1M1~~~~~~~
+2024-10-09 00:03:04,112 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:04,112 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:04,112 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:04,113 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:04,113 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:04,113 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:04,113 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:04,113 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:04,113 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:04,113 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:04,113 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:05,458 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.34 seconds
+2024-10-09 00:03:05,539 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:03:05,540 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:05,540 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:05,540 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:05,541 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:05,541 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:05,541 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:05,541 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:05,541 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:05,541 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:05,541 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:05,541 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:06,841 - INFO - Iteration 2 - Time taken to train the model for SF1M1: 1.30 seconds
+2024-10-09 00:03:06,907 - INFO - Iteration 2 - AUC: nan for SF1M1
+2024-10-09 00:03:06,907 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:06,907 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:06,907 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:06,908 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:06,908 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:06,908 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:06,908 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:06,908 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:06,908 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:06,908 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:06,908 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:08,276 - INFO - Iteration 3 - Time taken to train the model for SF1M1: 1.37 seconds
+2024-10-09 00:03:08,330 - INFO - Iteration 3 - AUC: nan for SF1M1
+2024-10-09 00:03:08,330 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:08,330 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:08,330 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:08,330 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:08,330 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:08,331 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:08,331 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:08,331 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:08,331 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:08,331 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:08,331 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:09,710 - INFO - Iteration 4 - Time taken to train the model for SF1M1: 1.38 seconds
+2024-10-09 00:03:09,750 - INFO - Iteration 4 - AUC: nan for SF1M1
+2024-10-09 00:03:09,751 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:09,751 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:09,751 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:09,751 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:09,751 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:09,751 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:09,751 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:09,751 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:09,751 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:09,751 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:09,751 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:11,023 - INFO - Iteration 5 - Time taken to train the model for SF1M1: 1.27 seconds
+2024-10-09 00:03:11,089 - INFO - Iteration 5 - AUC: nan for SF1M1
+2024-10-09 00:03:11,089 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:11,089 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:11,089 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:11,090 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:11,090 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:11,090 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:11,090 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:11,090 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:11,090 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:11,090 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:11,090 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:12,513 - INFO - Iteration 6 - Time taken to train the model for SF1M1: 1.42 seconds
+2024-10-09 00:03:12,566 - INFO - Iteration 6 - AUC: nan for SF1M1
+2024-10-09 00:03:12,566 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:12,567 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:12,567 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:12,567 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:12,567 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:12,567 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:12,567 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:12,567 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:12,567 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:12,567 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:12,567 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:13,972 - INFO - Iteration 7 - Time taken to train the model for SF1M1: 1.41 seconds
+2024-10-09 00:03:14,040 - INFO - Iteration 7 - AUC: nan for SF1M1
+2024-10-09 00:03:14,041 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:14,041 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:14,041 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:14,041 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:14,041 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:14,041 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:14,041 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:14,041 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:14,041 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:14,041 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:14,041 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:15,378 - INFO - Iteration 8 - Time taken to train the model for SF1M1: 1.34 seconds
+2024-10-09 00:03:15,419 - INFO - Iteration 8 - AUC: nan for SF1M1
+2024-10-09 00:03:15,420 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:15,420 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:15,420 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:15,420 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:15,420 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:15,420 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:15,420 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:15,420 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:15,420 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:15,420 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:15,420 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:16,772 - INFO - Iteration 9 - Time taken to train the model for SF1M1: 1.35 seconds
+2024-10-09 00:03:16,825 - INFO - Iteration 9 - AUC: nan for SF1M1
+2024-10-09 00:03:16,825 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:03:16,825 - INFO -     Total number of links in the network: 28
+2024-10-09 00:03:16,825 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:16,826 - INFO -     Training Positive Samples: 25
+2024-10-09 00:03:16,826 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:16,826 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:16,826 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:16,826 - INFO -     Training Negative Samples: 40
+2024-10-09 00:03:16,826 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:16,826 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:03:16,826 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:18,162 - INFO - Iteration 10 - Time taken to train the model for SF1M1: 1.34 seconds
+2024-10-09 00:03:18,215 - INFO - Iteration 10 - AUC: nan for SF1M1
+2024-10-09 00:03:18,215 - INFO - Final average AUC for SF1M1 over 10 iterations: nan
+2024-10-09 00:03:18,215 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:03:18,216 - INFO - Loading dataset from data/foodwebs/PP1I3.csv for dataset: PP1I3
+2024-10-09 00:03:18,216 - INFO -     Size of k = 10
+2024-10-09 00:03:18,216 - INFO -     Test ratio = 0.1
+2024-10-09 00:03:18,218 - INFO -     Number of resources: 4
+2024-10-09 00:03:18,218 - INFO -     Number of consumers: 0
+2024-10-09 00:03:18,218 - INFO -     Number of top consumers: 7
+2024-10-09 00:03:18,218 - INFO -     Connectance of the network: 0.21818181818181817
+2024-10-09 00:03:18,218 - INFO - ~~~~~~~Processing for Size 5 started for PP1I3~~~~~~~
+2024-10-09 00:03:18,218 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:18,218 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:18,218 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:18,218 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:18,218 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:18,218 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:18,218 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:18,219 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:18,219 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:18,219 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:18,219 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:19,548 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.33 seconds
+2024-10-09 00:03:19,626 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:03:19,627 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:19,627 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:19,627 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:19,627 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:19,627 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:19,627 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:19,627 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:19,627 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:19,627 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:19,627 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:19,627 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:20,972 - INFO - Iteration 2 - Time taken to train the model for PP1I3: 1.34 seconds
+2024-10-09 00:03:21,036 - INFO - Iteration 2 - AUC: nan for PP1I3
+2024-10-09 00:03:21,036 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:21,036 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:21,037 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:21,037 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:21,037 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:21,037 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:21,037 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:21,037 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:21,037 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:21,037 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:21,037 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:22,437 - INFO - Iteration 3 - Time taken to train the model for PP1I3: 1.40 seconds
+2024-10-09 00:03:22,502 - INFO - Iteration 3 - AUC: nan for PP1I3
+2024-10-09 00:03:22,503 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:22,503 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:22,503 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:22,503 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:22,503 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:22,503 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:22,503 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:22,503 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:22,503 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:22,503 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:22,503 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:23,951 - INFO - Iteration 4 - Time taken to train the model for PP1I3: 1.45 seconds
+2024-10-09 00:03:24,028 - INFO - Iteration 4 - AUC: nan for PP1I3
+2024-10-09 00:03:24,029 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:24,029 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:24,029 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:24,029 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:24,029 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:24,029 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:24,029 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:24,030 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:24,030 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:24,030 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:24,030 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:25,489 - INFO - Iteration 5 - Time taken to train the model for PP1I3: 1.46 seconds
+2024-10-09 00:03:25,566 - INFO - Iteration 5 - AUC: nan for PP1I3
+2024-10-09 00:03:25,567 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:25,567 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:25,567 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:25,567 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:25,567 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:25,567 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:25,567 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:25,567 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:25,567 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:25,567 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:25,568 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:26,881 - INFO - Iteration 6 - Time taken to train the model for PP1I3: 1.31 seconds
+2024-10-09 00:03:26,957 - INFO - Iteration 6 - AUC: nan for PP1I3
+2024-10-09 00:03:26,957 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:26,957 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:26,957 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:26,957 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:26,957 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:26,957 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:26,957 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:26,958 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:26,958 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:26,958 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:26,958 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:28,258 - INFO - Iteration 7 - Time taken to train the model for PP1I3: 1.30 seconds
+2024-10-09 00:03:28,336 - INFO - Iteration 7 - AUC: nan for PP1I3
+2024-10-09 00:03:28,336 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:28,336 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:28,336 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:28,337 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:28,337 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:28,337 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:28,337 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:28,337 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:28,337 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:28,337 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:28,337 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:29,641 - INFO - Iteration 8 - Time taken to train the model for PP1I3: 1.30 seconds
+2024-10-09 00:03:29,718 - INFO - Iteration 8 - AUC: nan for PP1I3
+2024-10-09 00:03:29,718 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:29,718 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:29,718 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:29,718 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:29,718 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:29,718 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:29,719 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:29,719 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:29,719 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:29,719 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:29,719 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:31,060 - INFO - Iteration 9 - Time taken to train the model for PP1I3: 1.34 seconds
+2024-10-09 00:03:31,137 - INFO - Iteration 9 - AUC: nan for PP1I3
+2024-10-09 00:03:31,137 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:31,137 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:31,137 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:31,137 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:31,137 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:31,137 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:31,137 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:31,138 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:31,138 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:31,138 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:31,138 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:32,444 - INFO - Iteration 10 - Time taken to train the model for PP1I3: 1.31 seconds
+2024-10-09 00:03:32,522 - INFO - Iteration 10 - AUC: nan for PP1I3
+2024-10-09 00:03:32,522 - INFO - Final average AUC for PP1I3 over 10 iterations: nan
+2024-10-09 00:03:32,522 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:03:32,522 - INFO - ~~~~~~~Processing for Size 6 started for PP1I3~~~~~~~
+2024-10-09 00:03:32,522 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:32,522 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:32,522 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:32,523 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:32,523 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:32,523 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:32,523 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:32,523 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:32,523 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:32,523 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:32,523 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:33,777 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.25 seconds
+2024-10-09 00:03:33,855 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:03:33,855 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:33,855 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:33,855 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:33,855 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:33,855 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:33,856 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:33,856 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:33,856 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:33,856 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:33,856 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:33,856 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:35,195 - INFO - Iteration 2 - Time taken to train the model for PP1I3: 1.34 seconds
+2024-10-09 00:03:35,261 - INFO - Iteration 2 - AUC: nan for PP1I3
+2024-10-09 00:03:35,261 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:35,261 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:35,261 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:35,262 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:35,262 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:35,262 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:35,262 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:35,262 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:35,262 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:35,262 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:35,262 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:36,514 - INFO - Iteration 3 - Time taken to train the model for PP1I3: 1.25 seconds
+2024-10-09 00:03:36,592 - INFO - Iteration 3 - AUC: nan for PP1I3
+2024-10-09 00:03:36,593 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:36,593 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:36,593 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:36,593 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:36,593 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:36,593 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:36,593 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:36,593 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:36,593 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:36,593 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:36,593 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:37,902 - INFO - Iteration 4 - Time taken to train the model for PP1I3: 1.31 seconds
+2024-10-09 00:03:37,979 - INFO - Iteration 4 - AUC: nan for PP1I3
+2024-10-09 00:03:37,979 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:37,979 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:37,979 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:37,979 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:37,980 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:37,980 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:37,980 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:37,980 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:37,980 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:37,980 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:37,980 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:39,266 - INFO - Iteration 5 - Time taken to train the model for PP1I3: 1.29 seconds
+2024-10-09 00:03:39,331 - INFO - Iteration 5 - AUC: nan for PP1I3
+2024-10-09 00:03:39,331 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:39,331 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:39,331 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:39,331 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:39,332 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:39,332 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:39,332 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:39,332 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:39,332 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:39,332 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:39,332 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:40,576 - INFO - Iteration 6 - Time taken to train the model for PP1I3: 1.24 seconds
+2024-10-09 00:03:40,641 - INFO - Iteration 6 - AUC: nan for PP1I3
+2024-10-09 00:03:40,641 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:40,641 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:40,641 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:40,641 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:40,641 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:40,642 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:40,642 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:40,642 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:40,642 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:40,642 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:40,642 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:41,873 - INFO - Iteration 7 - Time taken to train the model for PP1I3: 1.23 seconds
+2024-10-09 00:03:41,950 - INFO - Iteration 7 - AUC: nan for PP1I3
+2024-10-09 00:03:41,950 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:41,951 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:41,951 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:41,951 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:41,951 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:41,951 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:41,951 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:41,951 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:41,951 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:41,951 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:41,951 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:43,202 - INFO - Iteration 8 - Time taken to train the model for PP1I3: 1.25 seconds
+2024-10-09 00:03:43,279 - INFO - Iteration 8 - AUC: nan for PP1I3
+2024-10-09 00:03:43,279 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:43,280 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:43,280 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:43,280 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:43,280 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:43,280 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:43,280 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:43,280 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:43,280 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:43,280 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:43,280 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:44,527 - INFO - Iteration 9 - Time taken to train the model for PP1I3: 1.25 seconds
+2024-10-09 00:03:44,604 - INFO - Iteration 9 - AUC: nan for PP1I3
+2024-10-09 00:03:44,605 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:44,605 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:44,605 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:44,605 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:44,605 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:44,605 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:44,605 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:44,605 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:44,605 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:44,605 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:44,605 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:45,785 - INFO - Iteration 10 - Time taken to train the model for PP1I3: 1.18 seconds
+2024-10-09 00:03:45,850 - INFO - Iteration 10 - AUC: nan for PP1I3
+2024-10-09 00:03:45,850 - INFO - Final average AUC for PP1I3 over 10 iterations: nan
+2024-10-09 00:03:45,850 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:03:45,850 - INFO - ~~~~~~~Processing for Size 7 started for PP1I3~~~~~~~
+2024-10-09 00:03:45,850 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:45,851 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:45,851 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:45,851 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:45,851 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:45,851 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:45,851 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:45,851 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:45,851 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:45,851 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:45,851 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:47,019 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.17 seconds
+2024-10-09 00:03:47,096 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:03:47,097 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:47,097 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:47,097 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:47,097 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:47,097 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:47,097 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:47,097 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:47,097 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:47,097 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:47,097 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:47,097 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:48,179 - INFO - Iteration 2 - Time taken to train the model for PP1I3: 1.08 seconds
+2024-10-09 00:03:48,256 - INFO - Iteration 2 - AUC: nan for PP1I3
+2024-10-09 00:03:48,257 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:48,257 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:48,257 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:48,257 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:48,257 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:48,257 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:48,257 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:48,257 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:48,257 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:48,257 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:48,257 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:49,474 - INFO - Iteration 3 - Time taken to train the model for PP1I3: 1.22 seconds
+2024-10-09 00:03:49,513 - INFO - Iteration 3 - AUC: nan for PP1I3
+2024-10-09 00:03:49,514 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:49,514 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:49,514 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:49,514 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:49,514 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:49,514 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:49,514 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:49,514 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:49,514 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:49,514 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:49,514 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:50,631 - INFO - Iteration 4 - Time taken to train the model for PP1I3: 1.12 seconds
+2024-10-09 00:03:50,684 - INFO - Iteration 4 - AUC: nan for PP1I3
+2024-10-09 00:03:50,684 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:50,684 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:50,684 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:50,685 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:50,685 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:50,685 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:50,685 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:50,685 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:50,685 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:50,685 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:50,685 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:51,863 - INFO - Iteration 5 - Time taken to train the model for PP1I3: 1.18 seconds
+2024-10-09 00:03:51,915 - INFO - Iteration 5 - AUC: nan for PP1I3
+2024-10-09 00:03:51,915 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:51,915 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:51,915 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:51,915 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:51,915 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:51,915 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:51,915 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:51,915 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:51,916 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:51,916 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:51,916 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:53,080 - INFO - Iteration 6 - Time taken to train the model for PP1I3: 1.16 seconds
+2024-10-09 00:03:53,145 - INFO - Iteration 6 - AUC: nan for PP1I3
+2024-10-09 00:03:53,145 - INFO -     ~~~~~~~~~~~~~~~Iteration 7 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:53,145 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:53,145 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:53,145 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:53,145 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:53,145 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:53,146 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:53,146 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:53,146 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:53,146 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:53,146 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:54,233 - INFO - Iteration 7 - Time taken to train the model for PP1I3: 1.09 seconds
+2024-10-09 00:03:54,311 - INFO - Iteration 7 - AUC: nan for PP1I3
+2024-10-09 00:03:54,311 - INFO -     ~~~~~~~~~~~~~~~Iteration 8 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:54,311 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:54,311 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:54,312 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:54,312 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:54,312 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:54,312 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:54,312 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:54,312 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:54,312 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:54,312 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:55,527 - INFO - Iteration 8 - Time taken to train the model for PP1I3: 1.21 seconds
+2024-10-09 00:03:55,567 - INFO - Iteration 8 - AUC: nan for PP1I3
+2024-10-09 00:03:55,567 - INFO -     ~~~~~~~~~~~~~~~Iteration 9 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:55,567 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:55,567 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:55,568 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:55,568 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:55,568 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:55,568 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:55,568 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:55,568 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:55,568 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:55,568 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:56,693 - INFO - Iteration 9 - Time taken to train the model for PP1I3: 1.13 seconds
+2024-10-09 00:03:56,746 - INFO - Iteration 9 - AUC: nan for PP1I3
+2024-10-09 00:03:56,747 - INFO -     ~~~~~~~~~~~~~~~Iteration 10 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:56,747 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:56,747 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:56,747 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:56,747 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:56,747 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:56,747 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:56,747 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:56,747 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:56,747 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:56,747 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:57,942 - INFO - Iteration 10 - Time taken to train the model for PP1I3: 1.19 seconds
+2024-10-09 00:03:58,007 - INFO - Iteration 10 - AUC: nan for PP1I3
+2024-10-09 00:03:58,007 - INFO - Final average AUC for PP1I3 over 10 iterations: nan
+2024-10-09 00:03:58,007 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:03:58,007 - INFO - ~~~~~~~Processing for Size 8 started for PP1I3~~~~~~~
+2024-10-09 00:03:58,007 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:58,008 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:58,008 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:58,008 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:58,008 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:58,008 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:58,008 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:58,008 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:58,008 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:58,008 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:58,008 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:03:59,227 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.22 seconds
+2024-10-09 00:03:59,281 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:03:59,282 - INFO -     ~~~~~~~~~~~~~~~Iteration 2 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:03:59,282 - INFO -     Total number of links in the network: 24
+2024-10-09 00:03:59,282 - INFO -     Number of links for testing: 3
+2024-10-09 00:03:59,282 - INFO -     Training Positive Samples: 21
+2024-10-09 00:03:59,282 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:03:59,282 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:03:59,282 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:03:59,282 - INFO -     Training Negative Samples: 33
+2024-10-09 00:03:59,282 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:03:59,282 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:03:59,282 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:04:00,498 - INFO - Iteration 2 - Time taken to train the model for PP1I3: 1.22 seconds
+2024-10-09 00:04:00,537 - INFO - Iteration 2 - AUC: nan for PP1I3
+2024-10-09 00:04:00,538 - INFO -     ~~~~~~~~~~~~~~~Iteration 3 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:04:00,538 - INFO -     Total number of links in the network: 24
+2024-10-09 00:04:00,538 - INFO -     Number of links for testing: 3
+2024-10-09 00:04:00,538 - INFO -     Training Positive Samples: 21
+2024-10-09 00:04:00,538 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:04:00,538 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:04:00,538 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:04:00,539 - INFO -     Training Negative Samples: 33
+2024-10-09 00:04:00,539 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:04:00,539 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:04:00,539 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:04:01,711 - INFO - Iteration 3 - Time taken to train the model for PP1I3: 1.17 seconds
+2024-10-09 00:04:01,788 - INFO - Iteration 3 - AUC: nan for PP1I3
+2024-10-09 00:04:01,788 - INFO -     ~~~~~~~~~~~~~~~Iteration 4 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:04:01,789 - INFO -     Total number of links in the network: 24
+2024-10-09 00:04:01,789 - INFO -     Number of links for testing: 3
+2024-10-09 00:04:01,789 - INFO -     Training Positive Samples: 21
+2024-10-09 00:04:01,789 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:04:01,789 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:04:01,789 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:04:01,789 - INFO -     Training Negative Samples: 33
+2024-10-09 00:04:01,789 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:04:01,789 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:04:01,789 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:04:02,866 - INFO - Iteration 4 - Time taken to train the model for PP1I3: 1.08 seconds
+2024-10-09 00:04:02,918 - INFO - Iteration 4 - AUC: nan for PP1I3
+2024-10-09 00:04:02,918 - INFO -     ~~~~~~~~~~~~~~~Iteration 5 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:04:02,918 - INFO -     Total number of links in the network: 24
+2024-10-09 00:04:02,918 - INFO -     Number of links for testing: 3
+2024-10-09 00:04:02,919 - INFO -     Training Positive Samples: 21
+2024-10-09 00:04:02,919 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:04:02,919 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:04:02,919 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:04:02,919 - INFO -     Training Negative Samples: 33
+2024-10-09 00:04:02,919 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:04:02,919 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:04:02,919 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:04:03,992 - INFO - Iteration 5 - Time taken to train the model for PP1I3: 1.07 seconds
+2024-10-09 00:04:04,071 - INFO - Iteration 5 - AUC: nan for PP1I3
+2024-10-09 00:04:04,071 - INFO -     ~~~~~~~~~~~~~~~Iteration 6 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:04:04,072 - INFO -     Total number of links in the network: 24
+2024-10-09 00:04:04,072 - INFO -     Number of links for testing: 3
+2024-10-09 00:04:04,072 - INFO -     Training Positive Samples: 21
+2024-10-09 00:04:04,072 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:04:04,072 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:04:04,072 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:04:04,072 - INFO -     Training Negative Samples: 33
+2024-10-09 00:04:04,072 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:04:04,072 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:04:04,072 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:09:54,180 - INFO - Loading dataset from data/foodwebs/SF1M1.csv for dataset: SF1M1
+2024-10-09 00:09:54,181 - INFO -     Size of k = 10
+2024-10-09 00:09:54,181 - INFO -     Test ratio = 0.1
+2024-10-09 00:09:54,184 - INFO -     Number of resources: 5
+2024-10-09 00:09:54,184 - INFO -     Number of consumers: 0
+2024-10-09 00:09:54,184 - INFO -     Number of top consumers: 7
+2024-10-09 00:09:54,184 - INFO -     Connectance of the network: 0.21212121212121213
+2024-10-09 00:09:54,184 - INFO - ~~~~~~~Processing for Size 5 started for SF1M1~~~~~~~
+2024-10-09 00:09:54,184 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:09:54,184 - INFO -     Total number of links in the network: 28
+2024-10-09 00:09:54,184 - INFO -     Number of links for testing: 3
+2024-10-09 00:09:54,187 - INFO -     Training Positive Samples: 25
+2024-10-09 00:09:54,187 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:09:54,187 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:09:54,187 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:09:54,188 - INFO -     Training Negative Samples: 40
+2024-10-09 00:09:54,188 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:09:54,188 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:09:54,188 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:09:55,838 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.65 seconds
+2024-10-09 00:09:55,919 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:09:55,919 - INFO - Final average AUC for SF1M1 over 1 iterations: nan
+2024-10-09 00:09:55,919 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:09:55,919 - INFO - ~~~~~~~Processing for Size 6 started for SF1M1~~~~~~~
+2024-10-09 00:09:55,919 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:09:55,919 - INFO -     Total number of links in the network: 28
+2024-10-09 00:09:55,919 - INFO -     Number of links for testing: 3
+2024-10-09 00:09:55,920 - INFO -     Training Positive Samples: 25
+2024-10-09 00:09:55,920 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:09:55,920 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:09:55,920 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:09:55,920 - INFO -     Training Negative Samples: 40
+2024-10-09 00:09:55,920 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:09:55,920 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:09:55,920 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:09:57,534 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.61 seconds
+2024-10-09 00:09:57,612 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:09:57,612 - INFO - Final average AUC for SF1M1 over 1 iterations: nan
+2024-10-09 00:09:57,613 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:09:57,613 - INFO - ~~~~~~~Processing for Size 7 started for SF1M1~~~~~~~
+2024-10-09 00:09:57,613 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:09:57,613 - INFO -     Total number of links in the network: 28
+2024-10-09 00:09:57,613 - INFO -     Number of links for testing: 3
+2024-10-09 00:09:57,613 - INFO -     Training Positive Samples: 25
+2024-10-09 00:09:57,613 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:09:57,613 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:09:57,613 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:09:57,613 - INFO -     Training Negative Samples: 40
+2024-10-09 00:09:57,613 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:09:57,613 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:09:57,613 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:09:59,071 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.46 seconds
+2024-10-09 00:09:59,154 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:09:59,154 - INFO - Final average AUC for SF1M1 over 1 iterations: nan
+2024-10-09 00:09:59,155 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:09:59,155 - INFO - ~~~~~~~Processing for Size 8 started for SF1M1~~~~~~~
+2024-10-09 00:09:59,155 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:09:59,155 - INFO -     Total number of links in the network: 28
+2024-10-09 00:09:59,155 - INFO -     Number of links for testing: 3
+2024-10-09 00:09:59,155 - INFO -     Training Positive Samples: 25
+2024-10-09 00:09:59,155 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:09:59,155 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:09:59,155 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:09:59,155 - INFO -     Training Negative Samples: 40
+2024-10-09 00:09:59,155 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:09:59,155 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:09:59,155 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:00,483 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.33 seconds
+2024-10-09 00:10:00,537 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:10:00,538 - INFO - Final average AUC for SF1M1 over 1 iterations: nan
+2024-10-09 00:10:00,538 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:00,538 - INFO - ~~~~~~~Processing for Size 9 started for SF1M1~~~~~~~
+2024-10-09 00:10:00,538 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:10:00,538 - INFO -     Total number of links in the network: 28
+2024-10-09 00:10:00,538 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:00,538 - INFO -     Training Positive Samples: 25
+2024-10-09 00:10:00,538 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:00,538 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:00,538 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:00,538 - INFO -     Training Negative Samples: 40
+2024-10-09 00:10:00,538 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:00,538 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:10:00,538 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:01,912 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.37 seconds
+2024-10-09 00:10:01,978 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:10:01,978 - INFO - Final average AUC for SF1M1 over 1 iterations: nan
+2024-10-09 00:10:01,978 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:01,978 - INFO - ~~~~~~~Processing for Size 10 started for SF1M1~~~~~~~
+2024-10-09 00:10:01,978 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M1~~~~~~~~~~~~~~~
+2024-10-09 00:10:01,978 - INFO -     Total number of links in the network: 28
+2024-10-09 00:10:01,978 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:01,978 - INFO -     Training Positive Samples: 25
+2024-10-09 00:10:01,979 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:01,979 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:01,979 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:01,979 - INFO -     Training Negative Samples: 40
+2024-10-09 00:10:01,979 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:01,979 - INFO -     Ratio of Training Positive/Negative: 0.625
+2024-10-09 00:10:01,979 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:03,319 - INFO - Iteration 1 - Time taken to train the model for SF1M1: 1.34 seconds
+2024-10-09 00:10:03,386 - INFO - Iteration 1 - AUC: nan for SF1M1
+2024-10-09 00:10:03,386 - INFO - Final average AUC for SF1M1 over 1 iterations: nan
+2024-10-09 00:10:03,386 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:03,386 - INFO - Loading dataset from data/foodwebs/PP1I3.csv for dataset: PP1I3
+2024-10-09 00:10:03,386 - INFO -     Size of k = 10
+2024-10-09 00:10:03,386 - INFO -     Test ratio = 0.1
+2024-10-09 00:10:03,389 - INFO -     Number of resources: 4
+2024-10-09 00:10:03,389 - INFO -     Number of consumers: 0
+2024-10-09 00:10:03,389 - INFO -     Number of top consumers: 7
+2024-10-09 00:10:03,389 - INFO -     Connectance of the network: 0.21818181818181817
+2024-10-09 00:10:03,389 - INFO - ~~~~~~~Processing for Size 5 started for PP1I3~~~~~~~
+2024-10-09 00:10:03,389 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:10:03,389 - INFO -     Total number of links in the network: 24
+2024-10-09 00:10:03,389 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:03,389 - INFO -     Training Positive Samples: 21
+2024-10-09 00:10:03,389 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:03,389 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:03,389 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:03,389 - INFO -     Training Negative Samples: 33
+2024-10-09 00:10:03,389 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:03,389 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:10:03,390 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:04,751 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.36 seconds
+2024-10-09 00:10:04,829 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:10:04,829 - INFO - Final average AUC for PP1I3 over 1 iterations: nan
+2024-10-09 00:10:04,829 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:04,829 - INFO - ~~~~~~~Processing for Size 6 started for PP1I3~~~~~~~
+2024-10-09 00:10:04,829 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:10:04,829 - INFO -     Total number of links in the network: 24
+2024-10-09 00:10:04,829 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:04,830 - INFO -     Training Positive Samples: 21
+2024-10-09 00:10:04,830 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:04,830 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:04,830 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:04,830 - INFO -     Training Negative Samples: 33
+2024-10-09 00:10:04,830 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:04,830 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:10:04,830 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:06,081 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.25 seconds
+2024-10-09 00:10:06,159 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:10:06,159 - INFO - Final average AUC for PP1I3 over 1 iterations: nan
+2024-10-09 00:10:06,159 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:06,159 - INFO - ~~~~~~~Processing for Size 7 started for PP1I3~~~~~~~
+2024-10-09 00:10:06,159 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:10:06,159 - INFO -     Total number of links in the network: 24
+2024-10-09 00:10:06,159 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:06,159 - INFO -     Training Positive Samples: 21
+2024-10-09 00:10:06,159 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:06,160 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:06,160 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:06,160 - INFO -     Training Negative Samples: 33
+2024-10-09 00:10:06,160 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:06,160 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:10:06,160 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:07,311 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.15 seconds
+2024-10-09 00:10:07,390 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:10:07,391 - INFO - Final average AUC for PP1I3 over 1 iterations: nan
+2024-10-09 00:10:07,391 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:07,391 - INFO - ~~~~~~~Processing for Size 8 started for PP1I3~~~~~~~
+2024-10-09 00:10:07,391 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:10:07,391 - INFO -     Total number of links in the network: 24
+2024-10-09 00:10:07,391 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:07,391 - INFO -     Training Positive Samples: 21
+2024-10-09 00:10:07,391 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:07,391 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:07,391 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:07,391 - INFO -     Training Negative Samples: 33
+2024-10-09 00:10:07,391 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:07,391 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:10:07,391 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:08,657 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.27 seconds
+2024-10-09 00:10:08,723 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:10:08,724 - INFO - Final average AUC for PP1I3 over 1 iterations: nan
+2024-10-09 00:10:08,724 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:08,724 - INFO - ~~~~~~~Processing for Size 9 started for PP1I3~~~~~~~
+2024-10-09 00:10:08,724 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:10:08,724 - INFO -     Total number of links in the network: 24
+2024-10-09 00:10:08,724 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:08,724 - INFO -     Training Positive Samples: 21
+2024-10-09 00:10:08,724 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:08,724 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:08,724 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:08,724 - INFO -     Training Negative Samples: 33
+2024-10-09 00:10:08,724 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:08,724 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:10:08,724 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:09,861 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.14 seconds
+2024-10-09 00:10:09,926 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:10:09,926 - INFO - Final average AUC for PP1I3 over 1 iterations: nan
+2024-10-09 00:10:09,926 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:09,926 - INFO - ~~~~~~~Processing for Size 10 started for PP1I3~~~~~~~
+2024-10-09 00:10:09,926 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for PP1I3~~~~~~~~~~~~~~~
+2024-10-09 00:10:09,927 - INFO -     Total number of links in the network: 24
+2024-10-09 00:10:09,927 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:09,927 - INFO -     Training Positive Samples: 21
+2024-10-09 00:10:09,927 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:09,927 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:09,927 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:09,927 - INFO -     Training Negative Samples: 33
+2024-10-09 00:10:09,927 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:09,927 - INFO -     Ratio of Training Positive/Negative: 0.6363636363636364
+2024-10-09 00:10:09,927 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:11,273 - INFO - Iteration 1 - Time taken to train the model for PP1I3: 1.35 seconds
+2024-10-09 00:10:11,354 - INFO - Iteration 1 - AUC: nan for PP1I3
+2024-10-09 00:10:11,354 - INFO - Final average AUC for PP1I3 over 1 iterations: nan
+2024-10-09 00:10:11,354 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:11,355 - INFO - Loading dataset from data/foodwebs/SP1.csv for dataset: SP1
+2024-10-09 00:10:11,355 - INFO -     Size of k = 10
+2024-10-09 00:10:11,355 - INFO -     Test ratio = 0.1
+2024-10-09 00:10:11,357 - INFO -     Number of resources: 1
+2024-10-09 00:10:11,357 - INFO -     Number of consumers: 1
+2024-10-09 00:10:11,357 - INFO -     Number of top consumers: 9
+2024-10-09 00:10:11,357 - INFO -     Connectance of the network: 0.20909090909090908
+2024-10-09 00:10:11,357 - INFO - ~~~~~~~Processing for Size 5 started for SP1~~~~~~~
+2024-10-09 00:10:11,357 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SP1~~~~~~~~~~~~~~~
+2024-10-09 00:10:11,357 - INFO -     Total number of links in the network: 23
+2024-10-09 00:10:11,357 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:11,358 - INFO -     Training Positive Samples: 20
+2024-10-09 00:10:11,358 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:11,358 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:11,358 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:11,358 - INFO -     Training Negative Samples: 36
+2024-10-09 00:10:11,358 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:11,358 - INFO -     Ratio of Training Positive/Negative: 0.5555555555555556
+2024-10-09 00:10:11,358 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:12,607 - INFO - Iteration 1 - Time taken to train the model for SP1: 1.25 seconds
+2024-10-09 00:10:12,684 - INFO - Iteration 1 - AUC: nan for SP1
+2024-10-09 00:10:12,685 - INFO - Final average AUC for SP1 over 1 iterations: nan
+2024-10-09 00:10:12,685 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:12,685 - INFO - ~~~~~~~Processing for Size 6 started for SP1~~~~~~~
+2024-10-09 00:10:12,685 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SP1~~~~~~~~~~~~~~~
+2024-10-09 00:10:12,685 - INFO -     Total number of links in the network: 23
+2024-10-09 00:10:12,685 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:12,685 - INFO -     Training Positive Samples: 20
+2024-10-09 00:10:12,685 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:12,685 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:12,686 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:12,686 - INFO -     Training Negative Samples: 36
+2024-10-09 00:10:12,686 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:12,686 - INFO -     Ratio of Training Positive/Negative: 0.5555555555555556
+2024-10-09 00:10:12,686 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:13,965 - INFO - Iteration 1 - Time taken to train the model for SP1: 1.28 seconds
+2024-10-09 00:10:14,031 - INFO - Iteration 1 - AUC: nan for SP1
+2024-10-09 00:10:14,031 - INFO - Final average AUC for SP1 over 1 iterations: nan
+2024-10-09 00:10:14,031 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:14,031 - INFO - ~~~~~~~Processing for Size 7 started for SP1~~~~~~~
+2024-10-09 00:10:14,031 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SP1~~~~~~~~~~~~~~~
+2024-10-09 00:10:14,031 - INFO -     Total number of links in the network: 23
+2024-10-09 00:10:14,031 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:14,031 - INFO -     Training Positive Samples: 20
+2024-10-09 00:10:14,032 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:14,032 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:14,032 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:14,032 - INFO -     Training Negative Samples: 36
+2024-10-09 00:10:14,032 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:14,032 - INFO -     Ratio of Training Positive/Negative: 0.5555555555555556
+2024-10-09 00:10:14,032 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:15,367 - INFO - Iteration 1 - Time taken to train the model for SP1: 1.34 seconds
+2024-10-09 00:10:15,510 - INFO - Iteration 1 - AUC: nan for SP1
+2024-10-09 00:10:15,510 - INFO - Final average AUC for SP1 over 1 iterations: nan
+2024-10-09 00:10:15,510 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:15,510 - INFO - ~~~~~~~Processing for Size 8 started for SP1~~~~~~~
+2024-10-09 00:10:15,510 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SP1~~~~~~~~~~~~~~~
+2024-10-09 00:10:15,511 - INFO -     Total number of links in the network: 23
+2024-10-09 00:10:15,511 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:15,511 - INFO -     Training Positive Samples: 20
+2024-10-09 00:10:15,511 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:15,511 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:15,511 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:15,512 - INFO -     Training Negative Samples: 36
+2024-10-09 00:10:15,512 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:15,512 - INFO -     Ratio of Training Positive/Negative: 0.5555555555555556
+2024-10-09 00:10:15,512 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:17,060 - INFO - Iteration 1 - Time taken to train the model for SP1: 1.55 seconds
+2024-10-09 00:10:17,126 - INFO - Iteration 1 - AUC: nan for SP1
+2024-10-09 00:10:17,126 - INFO - Final average AUC for SP1 over 1 iterations: nan
+2024-10-09 00:10:17,126 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:17,126 - INFO - ~~~~~~~Processing for Size 9 started for SP1~~~~~~~
+2024-10-09 00:10:17,126 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SP1~~~~~~~~~~~~~~~
+2024-10-09 00:10:17,126 - INFO -     Total number of links in the network: 23
+2024-10-09 00:10:17,126 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:17,127 - INFO -     Training Positive Samples: 20
+2024-10-09 00:10:17,127 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:17,127 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:17,127 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:17,127 - INFO -     Training Negative Samples: 36
+2024-10-09 00:10:17,127 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:17,127 - INFO -     Ratio of Training Positive/Negative: 0.5555555555555556
+2024-10-09 00:10:17,127 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:18,606 - INFO - Iteration 1 - Time taken to train the model for SP1: 1.48 seconds
+2024-10-09 00:10:18,688 - INFO - Iteration 1 - AUC: nan for SP1
+2024-10-09 00:10:18,688 - INFO - Final average AUC for SP1 over 1 iterations: nan
+2024-10-09 00:10:18,689 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:18,689 - INFO - ~~~~~~~Processing for Size 10 started for SP1~~~~~~~
+2024-10-09 00:10:18,689 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SP1~~~~~~~~~~~~~~~
+2024-10-09 00:10:18,689 - INFO -     Total number of links in the network: 23
+2024-10-09 00:10:18,689 - INFO -     Number of links for testing: 3
+2024-10-09 00:10:18,689 - INFO -     Training Positive Samples: 20
+2024-10-09 00:10:18,689 - INFO -     Testing Positive Samples: 3
+2024-10-09 00:10:18,689 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:18,689 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:18,689 - INFO -     Training Negative Samples: 36
+2024-10-09 00:10:18,689 - INFO -     Testing Negative Samples: 0
+2024-10-09 00:10:18,689 - INFO -     Ratio of Training Positive/Negative: 0.5555555555555556
+2024-10-09 00:10:18,689 - INFO -     Ratio of Testing Positive/Negative: 3.0
+2024-10-09 00:10:20,111 - INFO - Iteration 1 - Time taken to train the model for SP1: 1.42 seconds
+2024-10-09 00:10:20,191 - INFO - Iteration 1 - AUC: nan for SP1
+2024-10-09 00:10:20,191 - INFO - Final average AUC for SP1 over 1 iterations: nan
+2024-10-09 00:10:20,191 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:20,191 - INFO - Loading dataset from data/foodwebs/SF1M2.csv for dataset: SF1M2
+2024-10-09 00:10:20,192 - INFO -     Size of k = 10
+2024-10-09 00:10:20,192 - INFO -     Test ratio = 0.1
+2024-10-09 00:10:20,194 - INFO -     Number of resources: 4
+2024-10-09 00:10:20,194 - INFO -     Number of consumers: 0
+2024-10-09 00:10:20,194 - INFO -     Number of top consumers: 6
+2024-10-09 00:10:20,194 - INFO -     Connectance of the network: 0.17777777777777778
+2024-10-09 00:10:20,194 - INFO - ~~~~~~~Processing for Size 5 started for SF1M2~~~~~~~
+2024-10-09 00:10:20,194 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M2~~~~~~~~~~~~~~~
+2024-10-09 00:10:20,194 - INFO -     Total number of links in the network: 16
+2024-10-09 00:10:20,194 - INFO -     Number of links for testing: 2
+2024-10-09 00:10:20,194 - INFO -     Training Positive Samples: 14
+2024-10-09 00:10:20,194 - INFO -     Testing Positive Samples: 2
+2024-10-09 00:10:20,194 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:20,194 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:20,195 - INFO -     Training Negative Samples: 28
+2024-10-09 00:10:20,195 - INFO -     Testing Negative Samples: 2
+2024-10-09 00:10:20,195 - INFO -     Ratio of Training Positive/Negative: 0.5
+2024-10-09 00:10:20,195 - INFO -     Ratio of Testing Positive/Negative: 1.0
+2024-10-09 00:10:21,057 - INFO - Iteration 1 - Time taken to train the model for SF1M2: 0.86 seconds
+2024-10-09 00:10:21,146 - INFO - Iteration 1 - AUC: 0.7500 for SF1M2
+2024-10-09 00:10:21,146 - INFO - Final average AUC for SF1M2 over 1 iterations: 0.7500
+2024-10-09 00:10:21,146 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:21,146 - INFO - ~~~~~~~Processing for Size 6 started for SF1M2~~~~~~~
+2024-10-09 00:10:21,146 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M2~~~~~~~~~~~~~~~
+2024-10-09 00:10:21,146 - INFO -     Total number of links in the network: 16
+2024-10-09 00:10:21,146 - INFO -     Number of links for testing: 2
+2024-10-09 00:10:21,147 - INFO -     Training Positive Samples: 14
+2024-10-09 00:10:21,147 - INFO -     Testing Positive Samples: 2
+2024-10-09 00:10:21,147 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:21,147 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:21,147 - INFO -     Training Negative Samples: 28
+2024-10-09 00:10:21,147 - INFO -     Testing Negative Samples: 2
+2024-10-09 00:10:21,147 - INFO -     Ratio of Training Positive/Negative: 0.5
+2024-10-09 00:10:21,147 - INFO -     Ratio of Testing Positive/Negative: 1.0
+2024-10-09 00:10:21,919 - INFO - Iteration 1 - Time taken to train the model for SF1M2: 0.77 seconds
+2024-10-09 00:10:21,996 - INFO - Iteration 1 - AUC: 0.2500 for SF1M2
+2024-10-09 00:10:21,996 - INFO - Final average AUC for SF1M2 over 1 iterations: 0.2500
+2024-10-09 00:10:21,996 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:21,996 - INFO - ~~~~~~~Processing for Size 7 started for SF1M2~~~~~~~
+2024-10-09 00:10:21,996 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M2~~~~~~~~~~~~~~~
+2024-10-09 00:10:21,996 - INFO -     Total number of links in the network: 16
+2024-10-09 00:10:21,996 - INFO -     Number of links for testing: 2
+2024-10-09 00:10:21,997 - INFO -     Training Positive Samples: 14
+2024-10-09 00:10:21,997 - INFO -     Testing Positive Samples: 2
+2024-10-09 00:10:21,997 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:21,997 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:21,997 - INFO -     Training Negative Samples: 28
+2024-10-09 00:10:21,997 - INFO -     Testing Negative Samples: 2
+2024-10-09 00:10:21,997 - INFO -     Ratio of Training Positive/Negative: 0.5
+2024-10-09 00:10:21,997 - INFO -     Ratio of Testing Positive/Negative: 1.0
+2024-10-09 00:10:22,696 - INFO - Iteration 1 - Time taken to train the model for SF1M2: 0.70 seconds
+2024-10-09 00:10:22,749 - INFO - Iteration 1 - AUC: 0.5000 for SF1M2
+2024-10-09 00:10:22,749 - INFO - Final average AUC for SF1M2 over 1 iterations: 0.5000
+2024-10-09 00:10:22,749 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:22,749 - INFO - ~~~~~~~Processing for Size 8 started for SF1M2~~~~~~~
+2024-10-09 00:10:22,749 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M2~~~~~~~~~~~~~~~
+2024-10-09 00:10:22,749 - INFO -     Total number of links in the network: 16
+2024-10-09 00:10:22,749 - INFO -     Number of links for testing: 2
+2024-10-09 00:10:22,750 - INFO -     Training Positive Samples: 14
+2024-10-09 00:10:22,750 - INFO -     Testing Positive Samples: 2
+2024-10-09 00:10:22,750 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:22,750 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:22,750 - INFO -     Training Negative Samples: 28
+2024-10-09 00:10:22,750 - INFO -     Testing Negative Samples: 2
+2024-10-09 00:10:22,750 - INFO -     Ratio of Training Positive/Negative: 0.5
+2024-10-09 00:10:22,750 - INFO -     Ratio of Testing Positive/Negative: 1.0
+2024-10-09 00:10:23,771 - INFO - Iteration 1 - Time taken to train the model for SF1M2: 1.02 seconds
+2024-10-09 00:10:23,836 - INFO - Iteration 1 - AUC: 0.5000 for SF1M2
+2024-10-09 00:10:23,836 - INFO - Final average AUC for SF1M2 over 1 iterations: 0.5000
+2024-10-09 00:10:23,836 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:23,836 - INFO - ~~~~~~~Processing for Size 9 started for SF1M2~~~~~~~
+2024-10-09 00:10:23,836 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M2~~~~~~~~~~~~~~~
+2024-10-09 00:10:23,836 - INFO -     Total number of links in the network: 16
+2024-10-09 00:10:23,836 - INFO -     Number of links for testing: 2
+2024-10-09 00:10:23,837 - INFO -     Training Positive Samples: 14
+2024-10-09 00:10:23,837 - INFO -     Testing Positive Samples: 2
+2024-10-09 00:10:23,837 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:23,837 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:23,837 - INFO -     Training Negative Samples: 28
+2024-10-09 00:10:23,837 - INFO -     Testing Negative Samples: 2
+2024-10-09 00:10:23,837 - INFO -     Ratio of Training Positive/Negative: 0.5
+2024-10-09 00:10:23,837 - INFO -     Ratio of Testing Positive/Negative: 1.0
+2024-10-09 00:10:24,625 - INFO - Iteration 1 - Time taken to train the model for SF1M2: 0.79 seconds
+2024-10-09 00:10:24,705 - INFO - Iteration 1 - AUC: 0.5000 for SF1M2
+2024-10-09 00:10:24,705 - INFO - Final average AUC for SF1M2 over 1 iterations: 0.5000
+2024-10-09 00:10:24,705 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-10-09 00:10:24,705 - INFO - ~~~~~~~Processing for Size 10 started for SF1M2~~~~~~~
+2024-10-09 00:10:24,705 - INFO -     ~~~~~~~~~~~~~~~Iteration 1 started for SF1M2~~~~~~~~~~~~~~~
+2024-10-09 00:10:24,705 - INFO -     Total number of links in the network: 16
+2024-10-09 00:10:24,705 - INFO -     Number of links for testing: 2
+2024-10-09 00:10:24,706 - INFO -     Training Positive Samples: 14
+2024-10-09 00:10:24,706 - INFO -     Testing Positive Samples: 2
+2024-10-09 00:10:24,706 - WARNING - No biologically realistic negative links found between resource-resource or top consumer-top consumer pairs.
+2024-10-09 00:10:24,706 - WARNING - Falling back to random negative sampling.
+2024-10-09 00:10:24,706 - INFO -     Training Negative Samples: 28
+2024-10-09 00:10:24,706 - INFO -     Testing Negative Samples: 2
+2024-10-09 00:10:24,706 - INFO -     Ratio of Training Positive/Negative: 0.5
+2024-10-09 00:10:24,706 - INFO -     Ratio of Testing Positive/Negative: 1.0
+2024-10-09 00:10:25,251 - INFO - Iteration 1 - Time taken to train the model for SF1M2: 0.55 seconds
+2024-10-09 00:10:25,305 - INFO - Iteration 1 - AUC: 0.2500 for SF1M2
+2024-10-09 00:10:25,305 - INFO - Final average AUC for SF1M2 over 1 iterations: 0.2500
+2024-10-09 00:10:25,305 - INFO - ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

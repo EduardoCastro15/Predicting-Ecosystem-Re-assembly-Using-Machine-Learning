@@ -1,0 +1,5 @@
+2024-09-23 10:07:13,799 - INFO - Loading dataset from data/PB.mat
+2024-09-23 10:07:13,867 - INFO - Iteration 1 started
+2024-09-23 10:36:00,986 - INFO - Iteration 1 - Time taken to train the model: 1726.75 seconds
+2024-09-23 10:39:28,283 - INFO - Iteration 1 - AUC: 0.8524
+2024-09-23 10:39:28,283 - INFO - Final average AUC over 1 iterations: 0.8524
